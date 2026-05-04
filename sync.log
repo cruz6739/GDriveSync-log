@@ -1,0 +1,33 @@
+2026-05-04 13:24:11 [INFO] ====== GDriveSync 啟動 ======
+2026-05-04 13:24:11 [INFO] 資料庫初始化完成
+2026-05-04 13:24:11 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-04 13:24:11 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-04 13:24:11 [INFO] --- 開始增量同步 ---
+2026-05-04 13:27:01 [INFO] ====== GDriveSync 啟動 ======
+2026-05-04 13:27:01 [INFO] 資料庫初始化完成
+2026-05-04 13:27:01 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-04 13:27:01 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-04 13:27:01 [INFO] === 首次執行：三方全量掃描建立基準快照 ===
+2026-05-04 13:27:11 [INFO] 初始 pageToken 儲存完成：257574
+2026-05-04 13:27:11 [INFO] === 首次執行完成 ===
+2026-05-04 13:27:11 [ERROR] [GitHub] git commit 失敗：Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'U01572@FMCSFREE.(none)')
+2026-05-04 13:27:11 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-04 13:28:56 [INFO] ====== GDriveSync 啟動 ======
+2026-05-04 13:28:56 [INFO] 資料庫初始化完成
+2026-05-04 13:28:56 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-04 13:28:56 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-04 13:28:56 [INFO] --- 開始增量同步 ---
+2026-05-04 13:29:02 [INFO] --- 增量同步完成，pageToken 已更新 ---
