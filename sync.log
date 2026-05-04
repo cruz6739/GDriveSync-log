@@ -380,3 +380,16 @@ fatal: unable to auto-detect email address (got 'U01572@FMCSFREE.(none)')
 2026-05-04 15:56:20 [INFO] [NAS讀取] YM-提升廢水系統智慧化-降低放流口銅離子濃度OOC次數 Profet AI)-20260430.pptx (NAS勝)
 2026-05-04 15:56:24 [INFO] [Drive新增] YM-提升廢水系統智慧化-降低放流口銅離子濃度OOC次數 Profet AI)-20260430.pptx
 2026-05-04 15:56:24 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-04 15:56:26 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-04 15:56:26 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-04 16:01:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-04 16:01:02 [INFO] 資料庫初始化完成
+2026-05-04 16:01:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-04 16:01:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-04 16:01:02 [INFO] --- 開始增量同步 ---
+2026-05-04 16:01:19 [INFO] [下載更新] YM-提升廢水系統智慧化-降低放流口銅離子濃度OOC次數 Profet AI)-20260430.pptx (Drive勝)
+2026-05-04 16:01:20 [INFO] [NAS寫入] YM-提升廢水系統智慧化-降低放流口銅離子濃度OOC次數 Profet AI)-20260430.pptx
+2026-05-04 16:01:23 [INFO] [下載更新] 20260505_FMCS_weekly17.pptx (Drive勝)
+2026-05-04 16:01:23 [INFO] [NAS寫入] 20260505_FMCS_weekly17.pptx
+2026-05-04 16:01:23 [INFO] --- 增量同步完成，pageToken 已更新 ---
