@@ -239,3 +239,44 @@ fatal: unable to auto-detect email address (got 'U01572@FMCSFREE.(none)')
 2026-05-04 15:11:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-05-04 15:11:02 [INFO] --- 開始增量同步 ---
 2026-05-04 15:11:27 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-04 15:11:29 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-04 15:11:29 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-04 15:16:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-04 15:16:02 [INFO] 資料庫初始化完成
+2026-05-04 15:16:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-04 15:16:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-04 15:16:02 [INFO] --- 開始增量同步 ---
+2026-05-04 15:16:09 [INFO] [刪除本地] test0131.txt
+2026-05-04 15:16:10 [INFO] [Drive刪除] test0131.txt
+2026-05-04 15:16:10 [INFO] [刪除本地] LC2-1 FMCS圖控系統擴充工程說明0416.pptx
+2026-05-04 15:16:10 [INFO] [Drive刪除] LC2-1 FMCS圖控系統擴充工程說明0416.pptx
+2026-05-04 15:16:10 [INFO] [刪除本地] 2026環保廠務處期中報告0416_Patten_FMCS_(for finish).pptx
+2026-05-04 15:16:11 [INFO] [Drive刪除] 2026環保廠務處期中報告0416_Patten_FMCS_(for finish).pptx
+2026-05-04 15:16:12 [INFO] [NAS讀取] 品質月報告-柏拉圖數據 - 複製V0429-0802.xlsx (NAS勝)
+2026-05-04 15:16:14 [INFO] [Drive新增] 品質月報告-柏拉圖數據 - 複製V0429-0802.xlsx
+2026-05-04 15:16:14 [INFO] [刪除本地] LC2-1 FMCS圖控系統擴充工程說明0417.pptx
+2026-05-04 15:16:15 [INFO] [Drive刪除] LC2-1 FMCS圖控系統擴充工程說明0417.pptx
+2026-05-04 15:16:15 [INFO] [NAS讀取] 2026-Weekly-Calendar-0429-1419.xlsx (NAS勝)
+2026-05-04 15:16:24 [INFO] [Drive新增] 2026-Weekly-Calendar-0429-1419.xlsx
+2026-05-04 15:16:24 [INFO] [刪除本地] LC2-1 Phase-2_FMCS_Bidding_v0417.xlsx
+2026-05-04 15:16:25 [INFO] [Drive刪除] LC2-1 Phase-2_FMCS_Bidding_v0417.xlsx
+2026-05-04 15:16:25 [INFO] [刪除本地] LC2-1 Phase-2_FMCS_Bidding_v0417-predit.xlsx
+2026-05-04 15:16:26 [INFO] [Drive刪除] LC2-1 Phase-2_FMCS_Bidding_v0417-predit.xlsx
+2026-05-04 15:16:26 [INFO] [NAS讀取] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pdf (NAS勝)
+2026-05-04 15:16:30 [INFO] [Drive新增] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pdf
+2026-05-04 15:16:30 [INFO] [刪除本地] LC2-1 Phase-2_FMCS_Bidding_v251230.xlsx
+2026-05-04 15:16:31 [INFO] [Drive刪除] LC2-1 Phase-2_FMCS_Bidding_v251230.xlsx
+2026-05-04 15:16:31 [INFO] [NAS讀取] AddressBook20260420.csv (NAS勝)
+2026-05-04 15:16:34 [INFO] [Drive新增] AddressBook20260420.csv
+2026-05-04 15:16:34 [INFO] [刪除本地] AddressBook20260318.csv
+2026-05-04 15:16:34 [INFO] [Drive刪除] AddressBook20260318.csv
+2026-05-04 15:16:34 [INFO] [刪除本地] 2026-Weekly-Calendar.xlsx
+2026-05-04 15:16:35 [INFO] [Drive刪除] 2026-Weekly-Calendar.xlsx
+2026-05-04 15:16:35 [INFO] [刪除本地] 2026環廠處品質月期中報告-行動告警APP-0417-2145_FMCS.pptx
+2026-05-04 15:16:36 [INFO] [Drive刪除] 2026環廠處品質月期中報告-行動告警APP-0417-2145_FMCS.pptx
+2026-05-04 15:16:37 [INFO] [NAS讀取] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pptx (NAS勝)
+2026-05-04 15:17:56 [INFO] [Drive新增] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pptx
+2026-05-04 15:18:00 [INFO] [NAS讀取] 填寫檔_專案2_監控警報智慧行動指引_林育平0429-1419.pptx (NAS勝)
+2026-05-04 15:18:02 [INFO] [Drive新增] 填寫檔_專案2_監控警報智慧行動指引_林育平0429-1419.pptx
+2026-05-04 15:18:02 [INFO] --- 增量同步完成，pageToken 已更新 ---
