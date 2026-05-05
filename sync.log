@@ -1,30 +1,3 @@
-2026-05-04 15:21:15 [INFO] [NAS讀取] 2025環廠處品質月Q4效確報告(彙整) 1106.pptx (NAS勝)
-2026-05-04 15:21:21 [INFO] [Drive新增] 2025環廠處品質月Q4效確報告(彙整) 1106.pptx
-2026-05-04 15:21:44 [INFO] [下載更新] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pptx (Drive勝)
-2026-05-04 15:21:45 [INFO] [NAS寫入] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pptx
-2026-05-04 15:21:56 [INFO] [下載更新] 2026-Weekly-Calendar-0429-1419.xlsx (Drive勝)
-2026-05-04 15:21:56 [INFO] [NAS寫入] 2026-Weekly-Calendar-0429-1419.xlsx
-2026-05-04 15:21:56 [INFO] [NAS讀取] 2025環廠處品質月Q4效確報告.pptx (NAS勝)
-2026-05-04 15:22:02 [INFO] [Drive新增] 2025環廠處品質月Q4效確報告.pptx
-2026-05-04 15:22:04 [INFO] [下載更新] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pdf (Drive勝)
-2026-05-04 15:22:04 [INFO] [NAS寫入] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pdf
-2026-05-04 15:22:05 [INFO] [下載更新] AddressBook20260420.csv (Drive勝)
-2026-05-04 15:22:05 [INFO] [NAS寫入] AddressBook20260420.csv
-2026-05-04 15:22:06 [INFO] [下載更新] 填寫檔_專案2_監控警報智慧行動指引_林育平0429-1419.pptx (Drive勝)
-2026-05-04 15:22:06 [INFO] [NAS寫入] 填寫檔_專案2_監控警報智慧行動指引_林育平0429-1419.pptx
-2026-05-04 15:22:07 [INFO] [NAS讀取] 2025 FMCS Program.pptx (NAS勝)
-2026-05-04 15:23:46 [INFO] [Drive更新] 2025 FMCS Program.pptx
-2026-05-04 15:23:53 [INFO] [下載更新] 品質月報告-柏拉圖數據 - 複製V0429-0802.xlsx (Drive勝)
-2026-05-04 15:23:53 [INFO] [NAS寫入] 品質月報告-柏拉圖數據 - 複製V0429-0802.xlsx
-2026-05-04 15:23:53 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-05-04 15:23:56 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-05-04 15:23:56 [INFO] ====== GDriveSync 結束 ======
-
-2026-05-04 15:26:02 [INFO] ====== GDriveSync 啟動 ======
-2026-05-04 15:26:02 [INFO] 資料庫初始化完成
-2026-05-04 15:26:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-05-04 15:26:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-05-04 15:26:02 [INFO] --- 開始增量同步 ---
 2026-05-04 15:26:18 [INFO] [下載更新] 2025環廠處品質月Q4效確報告.pptx (Drive勝)
 2026-05-04 15:26:18 [INFO] [NAS寫入] 2025環廠處品質月Q4效確報告.pptx
 2026-05-04 15:26:22 [INFO] [下載更新] 2025環廠處品質月Q4效確報告(彙整) 1106.pptx (Drive勝)
@@ -2674,3 +2647,12 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-05-05 15:21:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-05-05 15:21:02 [INFO] --- 開始增量同步 ---
 2026-05-05 15:21:15 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-05 15:21:18 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-05 15:21:18 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-05 15:26:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-05 15:26:02 [INFO] 資料庫初始化完成
+2026-05-05 15:26:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-05 15:26:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-05 15:26:02 [INFO] --- 開始增量同步 ---
+2026-05-05 15:26:16 [INFO] --- 增量同步完成，pageToken 已更新 ---
