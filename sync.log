@@ -2535,3 +2535,12 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-05-05 11:26:19 [INFO] [下載更新] OutlookNewMailAlert-05051122.ps1 (Drive勝)
 2026-05-05 11:26:19 [INFO] [NAS寫入] OutlookNewMailAlert-05051122.ps1
 2026-05-05 11:26:19 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-05 11:26:21 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-05 11:26:21 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-05 11:31:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-05 11:31:02 [INFO] 資料庫初始化完成
+2026-05-05 11:31:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-05 11:31:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-05 11:31:02 [INFO] --- 開始增量同步 ---
+2026-05-05 11:31:16 [INFO] --- 增量同步完成，pageToken 已更新 ---
