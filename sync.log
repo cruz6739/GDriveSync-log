@@ -1,16 +1,3 @@
-2026-05-07 11:21:29 [INFO] [NAS讀取] iFIX_Screenshot.txt (NAS勝)
-2026-05-07 11:21:32 [INFO] [Drive新增] iFIX_Screenshot.txt
-2026-05-07 11:21:32 [INFO] [刪除本地] iFIX_Screenshot.bas
-2026-05-07 11:21:33 [INFO] [Drive刪除] iFIX_Screenshot.bas
-2026-05-07 11:21:33 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-05-07 11:21:36 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-05-07 11:21:36 [INFO] ====== GDriveSync 結束 ======
-
-2026-05-07 11:26:02 [INFO] ====== GDriveSync 啟動 ======
-2026-05-07 11:26:02 [INFO] 資料庫初始化完成
-2026-05-07 11:26:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-05-07 11:26:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-05-07 11:26:02 [INFO] --- 開始增量同步 ---
 2026-05-07 11:27:09 [INFO] [下載更新] iFIX_Screenshot.txt (Drive勝)
 2026-05-07 11:27:09 [INFO] [NAS寫入] iFIX_Screenshot.txt
 2026-05-07 11:27:09 [INFO] --- 增量同步完成，pageToken 已更新 ---
@@ -2621,3 +2608,12 @@
 2026-05-08 11:21:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-05-08 11:21:02 [INFO] --- 開始增量同步 ---
 2026-05-08 11:21:24 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-08 11:21:26 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-08 11:21:26 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-08 11:26:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-08 11:26:02 [INFO] 資料庫初始化完成
+2026-05-08 11:26:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-08 11:26:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-08 11:26:02 [INFO] --- 開始增量同步 ---
+2026-05-08 11:26:31 [INFO] --- 增量同步完成，pageToken 已更新 ---
