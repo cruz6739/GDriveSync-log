@@ -1,14 +1,3 @@
-2026-05-10 07:56:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-05-10 07:56:02 [INFO] --- 開始增量同步 ---
-2026-05-10 07:56:38 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-05-10 07:56:40 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-05-10 07:56:40 [INFO] ====== GDriveSync 結束 ======
-
-2026-05-10 08:01:01 [INFO] ====== GDriveSync 啟動 ======
-2026-05-10 08:01:01 [INFO] 資料庫初始化完成
-2026-05-10 08:01:01 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-05-10 08:01:01 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-05-10 08:01:01 [INFO] --- 開始增量同步 ---
 2026-05-10 08:01:36 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-05-10 08:01:38 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
 2026-05-10 08:01:38 [INFO] ====== GDriveSync 結束 ======
@@ -2613,3 +2602,18 @@
 2026-05-11 07:56:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-05-11 07:56:02 [INFO] --- 開始增量同步 ---
 2026-05-11 07:56:32 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-11 07:56:34 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-11 07:56:34 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-11 08:01:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-11 08:01:02 [INFO] 資料庫初始化完成
+2026-05-11 08:01:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-11 08:01:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-11 08:01:02 [INFO] --- 開始增量同步 ---
+2026-05-11 08:01:38 [INFO] [NAS讀取] 2025 FMCS Program.pptx (NAS勝)
+2026-05-11 08:03:22 [INFO] [Drive更新] 2025 FMCS Program.pptx
+2026-05-11 08:03:28 [INFO] [刪除本地] PIC VBA.txt
+2026-05-11 08:03:29 [INFO] [Drive刪除] PIC VBA.txt
+2026-05-11 08:03:29 [INFO] [刪除本地] iFIX_Screenshot.txt
+2026-05-11 08:03:30 [INFO] [Drive刪除] iFIX_Screenshot.txt
+2026-05-11 08:03:30 [INFO] --- 增量同步完成，pageToken 已更新 ---
