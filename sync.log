@@ -136,3 +136,13 @@
 2026-05-13 12:53:57 [INFO] [下載更新] 填寫檔_專案2_監控警報智慧行動指引_林育平0512-1428.pptx (Drive勝)
 2026-05-13 12:53:57 [INFO] [NAS寫入] 填寫檔_專案2_監控警報智慧行動指引_林育平0512-1428.pptx
 2026-05-13 12:53:57 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-13 12:54:00 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-13 12:54:00 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-13 12:54:33 [INFO] [下載更新] 2025 FMCS Program.pptx (Drive勝)
+2026-05-13 12:54:34 [INFO] [NAS寫入] 2025 FMCS Program.pptx
+2026-05-13 12:54:42 [INFO] [下載更新] Raw_Data_for_監控推播失效.xlsx (Drive勝)
+2026-05-13 12:54:42 [INFO] [NAS寫入] Raw_Data_for_監控推播失效.xlsx
+2026-05-13 12:55:33 [INFO] [下載更新] 2026環廠處品質月期中報告-行動告警APP-0513-1007-FMCS.pptx (Drive勝)
+2026-05-13 12:55:35 [INFO] [NAS寫入] 2026環廠處品質月期中報告-行動告警APP-0513-1007-FMCS.pptx
+2026-05-13 12:55:45 [INFO] --- 增量同步完成，pageToken 已更新 ---
