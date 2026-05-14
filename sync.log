@@ -1,10 +1,3 @@
-2026-05-13 12:29:06 [INFO] ====== GDriveSync 啟動 ======
-2026-05-13 12:29:06 [INFO] 資料庫初始化完成
-2026-05-13 12:29:07 [ERROR] Token refresh 失敗：('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
-2026-05-13 12:29:07 [INFO] Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=794990983156-mtia5joq5hlhbfn5v8u4osv40cjqjb5q.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A62253%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&state=IioIAWskZOGi68owNu4Bw9LaVOZNQ0&code_challenge=-L3KbvEriKOdL47070vy2nqqamSJ0ZwOtt54uVqE6AQ&code_challenge_method=S256&access_type=offline
-2026-05-13 12:29:14 [INFO] "GET /?state=IioIAWskZOGi68owNu4Bw9LaVOZNQ0&iss=https://accounts.google.com&code=4/0AeoWuM9osITueoIRwfZ0PPeF0HtGGQeBeoCx84-ZCAVXH0cffHA_OaN-EBYjYHUPVIZAXw&scope=https://www.googleapis.com/auth/drive HTTP/1.1" 200 65
-2026-05-13 12:29:14 [INFO] 首次授權完成
-2026-05-13 12:29:14 [ERROR] 無法取得 Drive service：[Errno 13] Permission denied: 'C:/GDriveSync\\token.json'
 2026-05-13 12:31:35 [INFO] ====== GDriveSync 啟動 ======
 2026-05-13 12:31:35 [INFO] 資料庫初始化完成
 2026-05-13 12:31:35 [INFO] Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=794990983156-mtia5joq5hlhbfn5v8u4osv40cjqjb5q.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A62504%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&state=BZbqhIiJj3WavV3ShXssA57LFiXBKH&code_challenge=AeoCx_dmrb7CHb4mMrz6rDANdKb5s9-ePSnuFiDxZL8&code_challenge_method=S256&access_type=offline
@@ -2727,3 +2720,13 @@
 2026-05-14 12:26:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-05-14 12:26:02 [INFO] --- 開始增量同步 ---
 2026-05-14 12:26:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-14 12:26:21 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-14 12:26:21 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-14 12:31:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-14 12:31:02 [INFO] 資料庫初始化完成
+2026-05-14 12:31:03 [INFO] Token refresh 成功
+2026-05-14 12:31:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-14 12:31:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-14 12:31:03 [INFO] --- 開始增量同步 ---
+2026-05-14 12:31:19 [INFO] --- 增量同步完成，pageToken 已更新 ---
