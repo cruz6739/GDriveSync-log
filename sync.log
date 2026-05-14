@@ -1,36 +1,3 @@
-2026-05-13 12:46:06 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-05-13 12:46:06 [INFO] ====== GDriveSync 結束 ======
-
-2026-05-13 12:47:22 [INFO] [Drive新增] 2026環廠處品質月期中報告-行動告警APP-0512-1428-FMCS.pptx
-2026-05-13 12:47:23 [INFO] [NAS寫入] 2026環廠處品質月期中報告-行動告警APP-0512-1428-FMCS.pptx
-2026-05-13 12:49:06 [INFO] [下載更新] 2026環保廠務處期中報告05011.pptx (Drive勝)
-2026-05-13 12:49:08 [INFO] [NAS寫入] 2026環保廠務處期中報告05011.pptx
-2026-05-13 12:49:20 [INFO] [下載更新] IMG_9716.PNG (Drive勝)
-2026-05-13 12:49:20 [INFO] [NAS寫入] IMG_9716.PNG
-2026-05-13 12:49:20 [INFO] [NAS讀取] Raw_Data_for_監控推播失效.xlsx (NAS勝)
-2026-05-13 12:49:23 [INFO] [Drive新增] Raw_Data_for_監控推播失效.xlsx
-2026-05-13 12:49:24 [INFO] [Drive刪除] 2026環廠處品質月期中報告-行動告警APP-0505-1700-FMCS.pptx
-2026-05-13 12:49:24 [INFO] [NAS讀取] abnormal.xlsx (NAS勝)
-2026-05-13 12:49:26 [INFO] [Drive新增] abnormal.xlsx
-2026-05-13 12:49:27 [INFO] [下載更新] IMG_9717.PNG (Drive勝)
-2026-05-13 12:49:28 [INFO] [NAS寫入] IMG_9717.PNG
-2026-05-13 12:49:29 [INFO] [下載更新] Raw_Data for 2025年度 SY廠環警報簡訊失效次數.xlsx (Drive勝)
-2026-05-13 12:49:29 [INFO] [NAS寫入] Raw_Data for 2025年度 SY廠環警報簡訊失效次數.xlsx
-2026-05-13 12:49:30 [INFO] [Drive刪除] 填寫檔_專案2_監控警報智慧行動指引_林育平0505-1700.pptx
-2026-05-13 12:49:31 [INFO] [下載更新] Action.pdf (Drive勝)
-2026-05-13 12:49:32 [INFO] [NAS寫入] Action.pdf
-2026-05-13 12:49:32 [INFO] [NAS讀取] 填寫檔_專案2_監控警報智慧行動指引_林育平0512-1428.pptx (NAS勝)
-2026-05-13 12:49:34 [INFO] [Drive新增] 填寫檔_專案2_監控警報智慧行動指引_林育平0512-1428.pptx
-2026-05-13 12:49:34 [INFO] [Drive刪除] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pptx
-2026-05-13 12:49:34 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-05-13 12:49:37 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-05-13 12:49:37 [INFO] ====== GDriveSync 結束 ======
-
-2026-05-13 12:50:36 [INFO] ====== GDriveSync 啟動 ======
-2026-05-13 12:50:36 [INFO] 資料庫初始化完成
-2026-05-13 12:50:36 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-05-13 12:50:36 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-05-13 12:50:36 [INFO] --- 開始增量同步 ---
 2026-05-13 12:51:15 [INFO] [下載更新] Raw_Data_for_監控推播失效.xlsx (Drive勝)
 2026-05-13 12:51:15 [INFO] [NAS寫入] Raw_Data_for_監控推播失效.xlsx
 2026-05-13 12:51:50 [INFO] [下載更新] 2025 FMCS Program.pptx (Drive勝)
@@ -2690,3 +2657,12 @@
 2026-05-14 12:46:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-05-14 12:46:02 [INFO] --- 開始增量同步 ---
 2026-05-14 12:46:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-14 12:46:23 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-14 12:46:23 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-14 12:51:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-14 12:51:02 [INFO] 資料庫初始化完成
+2026-05-14 12:51:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-14 12:51:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-14 12:51:02 [INFO] --- 開始增量同步 ---
+2026-05-14 12:51:19 [INFO] --- 增量同步完成，pageToken 已更新 ---
