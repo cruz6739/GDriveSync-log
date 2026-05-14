@@ -1,30 +1,3 @@
-2026-05-13 12:36:04 [INFO] ====== GDriveSync 啟動 ======
-2026-05-13 12:36:04 [INFO] 資料庫初始化完成
-2026-05-13 12:36:04 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-05-13 12:36:04 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-05-13 12:36:04 [INFO] --- 開始增量同步 ---
-2026-05-13 12:36:39 [INFO] [下載更新] 2026-Weekly-Calendar-0512-1428.xlsx (Drive勝)
-2026-05-13 12:36:39 [INFO] [NAS寫入] 2026-Weekly-Calendar-0512-1428.xlsx
-2026-05-13 12:36:39 [INFO] [衝突解決] 2026環廠處品質月期中報告-行動告警APP-0513-1007-FMCS.pptx → local 勝出
-2026-05-13 12:39:06 [INFO] [Drive新增] 2026環廠處品質月期中報告-行動告警APP-0513-1007-FMCS.pptx
-2026-05-13 12:39:09 [INFO] [下載更新] IMG_9716.PNG (Drive勝)
-2026-05-13 12:39:09 [INFO] [NAS寫入] IMG_9716.PNG
-2026-05-13 12:39:09 [INFO] [NAS讀取] Raw_Data_for_監控推播失效.xlsx (NAS勝)
-2026-05-13 12:39:11 [INFO] [Drive新增] Raw_Data_for_監控推播失效.xlsx
-2026-05-13 12:39:11 [INFO] [NAS讀取] abnormal.xlsx (NAS勝)
-2026-05-13 12:39:14 [INFO] [Drive新增] abnormal.xlsx
-2026-05-13 12:39:14 [INFO] [刪除本地] 填寫檔_專案2_監控警報智慧行動指引_林育平0505-1700.pptx
-2026-05-13 12:39:15 [INFO] [Drive刪除] 填寫檔_專案2_監控警報智慧行動指引_林育平0505-1700.pptx
-2026-05-13 12:39:15 [INFO] [NAS讀取] 填寫檔_專案2_監控警報智慧行動指引_林育平0512-1428.pptx (NAS勝)
-2026-05-13 12:39:17 [INFO] [Drive新增] 填寫檔_專案2_監控警報智慧行動指引_林育平0512-1428.pptx
-2026-05-13 12:39:17 [INFO] [刪除本地] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pptx
-2026-05-13 12:39:18 [INFO] [Drive刪除] 2026環廠處品質月期中報告-行動告警APP-0429-1653-FMCS.pptx
-2026-05-13 12:39:18 [INFO] [衝突解決] 2026環廠處品質月期中報告-行動告警APP-0512-1428-FMCS.pptx → local 勝出
-2026-05-13 12:40:36 [INFO] [Drive新增] 2026環廠處品質月期中報告-行動告警APP-0513-1007-FMCS.pptx
-2026-05-13 12:40:37 [INFO] [NAS寫入] 2026環廠處品質月期中報告-行動告警APP-0513-1007-FMCS.pptx
-2026-05-13 12:40:47 [INFO] [下載更新] Raw_Data_for_監控推播失效 (3).xlsx (Drive勝)
-2026-05-13 12:40:49 [INFO] [NAS寫入] Raw_Data_for_監控推播失效 (3).xlsx
-2026-05-13 12:40:49 [INFO] [NAS讀取] 2025 FMCS Program.pptx (NAS勝)
 2026-05-13 12:43:25 [INFO] [Drive新增] 2026環廠處品質月期中報告-行動告警APP-0512-1428-FMCS.pptx
 2026-05-13 12:43:26 [INFO] [NAS寫入] 2026環廠處品質月期中報告-行動告警APP-0512-1428-FMCS.pptx
 2026-05-13 12:43:28 [INFO] [NAS讀取] 2025 FMCS Program.pptx (NAS勝)
@@ -2708,3 +2681,12 @@
 2026-05-14 12:36:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-05-14 12:36:02 [INFO] --- 開始增量同步 ---
 2026-05-14 12:36:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-14 12:36:21 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-14 12:36:21 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-14 12:41:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-14 12:41:02 [INFO] 資料庫初始化完成
+2026-05-14 12:41:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-14 12:41:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-14 12:41:02 [INFO] --- 開始增量同步 ---
+2026-05-14 12:41:19 [INFO] --- 增量同步完成，pageToken 已更新 ---
