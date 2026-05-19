@@ -1,21 +1,3 @@
-2026-05-18 14:56:02 [INFO] ====== GDriveSync 啟動 ======
-2026-05-18 14:56:02 [INFO] 資料庫初始化完成
-2026-05-18 14:56:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-05-18 14:56:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-05-18 14:56:02 [INFO] --- 開始增量同步 ---
-2026-05-18 14:56:23 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-05-18 14:56:25 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-05-18 14:56:25 [INFO] ====== GDriveSync 結束 ======
-
-2026-05-18 15:01:02 [INFO] ====== GDriveSync 啟動 ======
-2026-05-18 15:01:02 [INFO] 資料庫初始化完成
-2026-05-18 15:01:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-05-18 15:01:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-05-18 15:01:02 [INFO] --- 開始增量同步 ---
-2026-05-18 15:01:25 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-05-18 15:01:27 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-05-18 15:01:27 [INFO] ====== GDriveSync 結束 ======
-
 2026-05-18 15:06:02 [INFO] ====== GDriveSync 啟動 ======
 2026-05-18 15:06:02 [INFO] 資料庫初始化完成
 2026-05-18 15:06:02 [INFO] file_cache is only supported with oauth2client<4.0.0
@@ -2395,3 +2377,12 @@
 2026-05-19 14:55:46 [INFO] [下載更新] 2026環廠處品質月期中報告-行動告警APP-0519-1443-FMCS.pptx (Drive勝)
 2026-05-19 14:55:47 [INFO] [NAS寫入] 2026環廠處品質月期中報告-行動告警APP-0519-1443-FMCS.pptx
 2026-05-19 14:55:55 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-05-19 14:55:57 [INFO] [GitHub] sync.log 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-05-19 14:55:57 [INFO] ====== GDriveSync 結束 ======
+
+2026-05-19 15:05:02 [INFO] ====== GDriveSync 啟動 ======
+2026-05-19 15:05:02 [INFO] 資料庫初始化完成
+2026-05-19 15:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-05-19 15:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-05-19 15:05:02 [INFO] --- 開始增量同步 ---
+2026-05-19 15:05:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
