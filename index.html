@@ -1,0 +1,720 @@
+<!-- =================2605061534======================== -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>系統監控儀表板 (Log Monitor)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Share Tech Mono', 'Courier New', monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 30px;
+            background-color: #000000;
+            min-height: 100vh;
+            margin: 0;
+            color: #a8d8ff;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 180, 255, 0.015) 2px,
+                rgba(0, 180, 255, 0.015) 4px
+            );
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        h1 {
+            font-size: 20px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            text-shadow: 0 0 6px #00c8ff, 0 0 12px #00c8ff, 0 0 24px #0088cc;
+            opacity: 0.85;
+            z-index: 1;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        #last-updated {
+            font-size: 12px;
+            color: #5588aa;
+            margin-bottom: 25px;
+            z-index: 1;
+            text-shadow: 0 0 4px rgba(0, 200, 255, 0.3);
+            letter-spacing: 1px;
+            text-align: center;
+            transition: color 0.3s;
+        }
+
+        .status-syncing {
+            color: #00e5ff !important;
+            text-shadow: 0 0 8px rgba(0, 229, 255, 0.8) !important;
+            animation: pulseSync 1s infinite alternate;
+        }
+
+        @keyframes pulseSync {
+            from { opacity: 0.7; }
+            to { opacity: 1; text-shadow: 0 0 15px rgba(0, 229, 255, 1); }
+        }
+
+        #navMenu {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            z-index: 1;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 90%;
+            width: 100%;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            font-size: 14px;
+            font-family: inherit;
+            letter-spacing: 2px;
+            cursor: pointer;
+            background-color: transparent;
+            color: #b8e8ff;
+            border: 1px solid #00aaee;
+            border-radius: 3px;
+            transition: all 0.2s;
+            box-shadow: 0 0 8px rgba(0, 180, 255, 0.4), inset 0 0 8px rgba(0, 180, 255, 0.05);
+            text-shadow: 0 0 8px #00c8ff;
+        }
+
+        .nav-btn:hover, .nav-btn.active {
+            background-color: rgba(0, 170, 238, 0.2);
+            color: #fff;
+            box-shadow: 0 0 16px rgba(0, 200, 255, 0.7), inset 0 0 12px rgba(0, 180, 255, 0.2);
+        }
+
+        #mainContainer {
+            width: 90%;
+            max-width: 800px;
+            z-index: 1;
+            position: relative;
+        }
+
+        h2 {
+            font-size: 16px;
+            border-bottom: 1px solid #00aaee;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            text-shadow: 0 0 5px #00c8ff;
+        }
+
+        .log-entry {
+            background: rgba(0, 30, 50, 0.6);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 3px solid #00aaee;
+            border-radius: 2px;
+            box-shadow: 0 0 8px rgba(0, 170, 238, 0.15), inset 0 0 6px rgba(0, 150, 220, 0.05);
+            animation: fadeInLED 0.4s ease-out;
+            line-height: 1.5;
+        }
+
+        .log-entry.error-alert {
+            border-left: 3px solid #ff3366;
+            background: rgba(50, 0, 10, 0.6);
+            box-shadow: 0 0 8px rgba(255, 51, 102, 0.3), inset 0 0 6px rgba(255, 51, 102, 0.1);
+        }
+        .log-entry.error-alert .source-tag { color: #ff99aa; text-shadow: 0 0 6px #ff3366; }
+        .log-entry.error-alert .message { color: #ffcccc; text-shadow: 0 0 4px #ff3366; }
+
+        .source-tag {
+            font-size: 12px;
+            color: #3a7aaa;
+            margin-bottom: 8px;
+            display: inline-block;
+            text-shadow: 0 0 6px #0066aa;
+            font-weight: bold;
+        }
+
+        .message {
+            font-size: 14px;
+            color: #b0dcff;
+            word-wrap: break-word;
+            word-break: break-all;
+            overflow-wrap: anywhere;
+            white-space: pre-wrap;
+        }
+
+        #rawLogView {
+            background: rgba(0, 15, 25, 0.8);
+            border: 1px solid #005577;
+            padding: 20px;
+            border-radius: 4px;
+            max-height: 60vh;
+            overflow-y: auto;
+            color: #aaddff;
+            font-size: 13px;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            word-break: break-all;
+            overflow-wrap: anywhere;
+            box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #001122; }
+        ::-webkit-scrollbar-thumb { background: #005577; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #00aaee; }
+
+        .loading {
+            text-align: center;
+            font-size: 18px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes fadeInLED {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes pulse {
+            0% { opacity: 0.5; text-shadow: none; }
+            50% { opacity: 1; text-shadow: 0 0 10px #00c8ff; }
+            100% { opacity: 0.5; text-shadow: none; }
+        }
+
+        @media (max-width: 600px) {
+            body { padding-top: 10px; }
+            h1 { font-size: 15px; letter-spacing: 1px; }
+            #last-updated { font-size: 10px; margin-bottom: 15px; letter-spacing: 0; }
+            #navMenu { 
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px; margin-bottom: 15px; width: 96%; 
+            }
+            .nav-btn { 
+                padding: 10px 4px; font-size: 11px; letter-spacing: 0; 
+                width: 100%; text-align: center; white-space: nowrap; 
+                overflow: hidden; text-overflow: ellipsis; 
+            }
+            #mainContainer { width: 96%; }
+            .log-entry { padding: 12px; margin-bottom: 10px; }
+            .source-tag { font-size: 11px; }
+            .message { font-size: 12px; }
+            h2 { font-size: 14px; }
+            #rawLogView { padding: 10px; font-size: 11px; max-height: 75vh; }
+        }
+        
+        @media (max-width: 375px) {
+            .nav-btn { font-size: 10px; padding: 8px 2px; }
+            .message, #rawLogView { font-size: 11px; }
+            h1 { font-size: 13px; }
+        }
+
+        /* ── 平衡原則 ICON ── */
+        #balanceIconBtn {
+            position: fixed;
+            top: 18px;
+            right: 18px;
+            z-index: 999;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 1px solid #00aaee;
+            background: rgba(0, 20, 40, 0.85);
+            color: #00e5ff;
+            font-size: 22px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 12px rgba(0, 180, 255, 0.5), inset 0 0 8px rgba(0, 180, 255, 0.1);
+            transition: all 0.25s ease;
+            backdrop-filter: blur(4px);
+        }
+        #balanceIconBtn:hover {
+            background: rgba(0, 170, 238, 0.25);
+            box-shadow: 0 0 22px rgba(0, 229, 255, 0.8), inset 0 0 14px rgba(0, 200, 255, 0.2);
+            transform: scale(1.1) rotate(-8deg);
+        }
+        #balanceIconBtn .tooltip-text {
+            visibility: hidden;
+            opacity: 0;
+            background: rgba(0, 20, 40, 0.95);
+            color: #7dd8ff;
+            font-size: 11px;
+            letter-spacing: 1px;
+            border: 1px solid #00aaee;
+            border-radius: 4px;
+            padding: 5px 10px;
+            position: absolute;
+            right: 52px;
+            top: 50%;
+            transform: translateY(-50%);
+            white-space: nowrap;
+            transition: opacity 0.2s;
+            box-shadow: 0 0 8px rgba(0,180,255,0.3);
+            pointer-events: none;
+        }
+        #balanceIconBtn:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* ── Modal 遮罩 ── */
+        #balanceModal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 1000;
+            background: rgba(0, 5, 15, 0.85);
+            backdrop-filter: blur(6px);
+            align-items: center;
+            justify-content: center;
+        }
+        #balanceModal.open {
+            display: flex;
+            animation: fadeInModal 0.25s ease-out;
+        }
+        @keyframes fadeInModal {
+            from { opacity: 0; transform: scale(0.95); }
+            to   { opacity: 1; transform: scale(1); }
+        }
+
+        /* ── Modal 卡片 ── */
+        #balanceModalCard {
+            background: linear-gradient(145deg, rgba(0, 18, 35, 0.98), rgba(0, 30, 55, 0.95));
+            border: 1px solid #00aaee;
+            border-radius: 8px;
+            padding: 32px 30px 28px;
+            max-width: 560px;
+            width: 92%;
+            box-shadow: 0 0 40px rgba(0, 180, 255, 0.35), inset 0 0 30px rgba(0, 100, 180, 0.06);
+            position: relative;
+            max-height: 88vh;
+            overflow-y: auto;
+        }
+        #balanceModalCard h3 {
+            font-size: 16px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #00e5ff;
+            text-shadow: 0 0 10px #00c8ff, 0 0 20px #0088cc;
+            margin: 0 0 6px 0;
+        }
+        #balanceModalCard .modal-subtitle {
+            font-size: 11px;
+            color: #3a7aaa;
+            letter-spacing: 1px;
+            margin-bottom: 22px;
+            border-bottom: 1px solid rgba(0,170,238,0.3);
+            padding-bottom: 12px;
+        }
+        .principle-item {
+            display: flex;
+            gap: 14px;
+            margin-bottom: 18px;
+            align-items: flex-start;
+            animation: fadeInLED 0.4s ease-out;
+        }
+        .principle-icon {
+            font-size: 22px;
+            min-width: 32px;
+            text-align: center;
+            margin-top: 1px;
+            filter: drop-shadow(0 0 6px #00aaee);
+        }
+        .principle-body .principle-title {
+            font-size: 13px;
+            color: #00e5ff;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+            text-shadow: 0 0 6px rgba(0,200,255,0.5);
+        }
+        .principle-body .principle-desc {
+            font-size: 12px;
+            color: #7bb8d8;
+            line-height: 1.65;
+        }
+        .principle-body .principle-desc code {
+            background: rgba(0,180,255,0.1);
+            border: 1px solid rgba(0,150,220,0.3);
+            border-radius: 3px;
+            padding: 1px 5px;
+            font-size: 11px;
+            color: #a8e0ff;
+        }
+        #balanceModalClose {
+            position: absolute;
+            top: 14px;
+            right: 16px;
+            background: transparent;
+            border: none;
+            color: #3a7aaa;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: inherit;
+            transition: color 0.2s, text-shadow 0.2s;
+            line-height: 1;
+        }
+        #balanceModalClose:hover {
+            color: #00e5ff;
+            text-shadow: 0 0 10px #00c8ff;
+        }
+        .modal-footer {
+            font-size: 10px;
+            color: #2a5a7a;
+            text-align: center;
+            letter-spacing: 1px;
+            margin-top: 18px;
+            padding-top: 14px;
+            border-top: 1px solid rgba(0,170,238,0.15);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ── 平衡原則 ICON 按鈕 ── -->
+    <button id="balanceIconBtn" onclick="openBalanceModal()" title="同步平衡原則">
+        ⚖️
+        <span class="tooltip-text">同步平衡原則</span>
+    </button>
+
+    <!-- ── 平衡原則 Modal ── -->
+    <div id="balanceModal" onclick="handleModalOverlayClick(event)">
+        <div id="balanceModalCard">
+            <button id="balanceModalClose" onclick="closeBalanceModal()">✕</button>
+            <h3>⚖️ 資料同步平衡原則</h3>
+            <div class="modal-subtitle">GDriveSync ── 本地 / Google Drive / NAS 三方同步規則</div>
+
+            <div class="principle-item">
+                <div class="principle-icon">🕐</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則一：最新版本優先（mtime 勝出）</div>
+                    <div class="principle-desc">
+                        當多方同時修改同一檔案時，以 <code>修改時間 (mtime)</code> 最新的版本為權威來源，
+                        並自動覆蓋所有落後端點。時間精度依賴 Google Drive UTC 時間戳與本地/NAS 系統時鐘同步。
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle-item">
+                <div class="principle-icon">🗑️</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則二：刪除優先（三方全刪）</div>
+                    <div class="principle-desc">
+                        任一方（本地、Drive 或 NAS）執行刪除操作，即觸發三方同步刪除。
+                        即使另一方同時修改了該檔案，<code>刪除仍優先</code>，以確保空間一致性與版本整潔性。
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle-item">
+                <div class="principle-icon">🌐</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則三：NAS 離線降級（雙方繼續）</div>
+                    <div class="principle-desc">
+                        當 NAS（<code>192.168.120.31</code>）無法連線時，系統不中斷，
+                        自動降級為本地 ↔ Google Drive 雙向同步模式，並於日誌寫入 <code>[WARNING]</code> 標記。
+                        NAS 恢復後，下次同步將自動補齊缺漏資料。
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle-item">
+                <div class="principle-icon">🔐</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則四：MD5 完整性驗證（避免假同步）</div>
+                    <div class="principle-desc">
+                        每次同步前以 <code>MD5 雜湊值</code> 比對各端檔案內容，
+                        若 MD5 相同則跳過傳輸，避免因時間戳差異導致的無效覆寫，節省頻寬與 API 配額。
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle-item">
+                <div class="principle-icon">📋</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則五：日誌透明（24 小時滾動保留）</div>
+                    <div class="principle-desc">
+                        所有同步動作（新增、更新、刪除、衝突解決、錯誤）均寫入 <code>sync.log</code>，
+                        並透過 GitHub Actions 自動推送至雲端。日誌保留最近 <code>24 小時</code>的紀錄，
+                        超過者自動清除，確保儲存空間不膨脹。本儀表板即時呈現此日誌狀態。
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">GDriveSync &nbsp;|&nbsp; 本地 ↔ Google Drive ↔ NAS &nbsp;|&nbsp; 三方雙向同步系統</div>
+        </div>
+    </div>
+
+    <h1>[ SYSTEM MONITOR DASHBOARD ]</h1>
+    <div id="last-updated">[ 系統初始化中... ]</div>
+
+    <div id="navMenu">
+        <button class="nav-btn active" id="btn-dashboard" onclick="showView('dashboard')">[ 總覽警報 ]</button>
+    </div>
+
+    <div id="mainContainer">
+        <div id="view-dashboard">
+            <h2>>> 最新系統狀態分析</h2>
+            <div id="dashboardContent">
+                <div class="loading">掃描日誌資料中... Please wait...</div>
+            </div>
+        </div>
+        <div id="view-detail" style="display: none;">
+            <h2 id="detailTitle">>> Log Content</h2>
+            <div id="rawLogView">載入中...</div>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        const LOG_SOURCES = [
+            // 1. GDFsync：讀取 GDriveSync sync.log
+            { name: 'GDFsync', url: 'https://raw.githubusercontent.com/cruz6739/GDriveSync-log/main/sync.log' },
+            // 2. Healthy：讀取健康檢查 health_check.log
+            { name: 'Healthy', url: 'https://raw.githubusercontent.com/cruz6739/GDriveSync-log/main/health_check.log' },
+            // 3. SYNGBOT（原有，不動）
+            { name: 'SYNGBOT', url: 'https://cruz6739.github.io/forsevice-netlify/syngaction02_log.txt' }
+        ];
+
+        const ERROR_KEYWORDS = ['錯誤', 'error', '停止', '警告', 'warning'];
+        const SAFE_KEYWORDS = ['腳本執行完成，錯誤代碼: 0', 'error code: 0'];
+        const logCache = {}; 
+        
+        let lastRefreshString = "尚未連線";
+
+        const init = () => {
+            initNavigation();
+            scanAllLogs();
+        };
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+
+        function escapeHTML(str) {
+            return str.replace(/[&<>'"]/g, tag => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                "'": '&#39;',
+                '"': '&quot;'
+            }[tag] || tag));
+        }
+
+        function updateLastRefreshTime() {
+            const now = new Date();
+            lastRefreshString = now.toLocaleTimeString('zh-TW', { hour12: false });
+            
+            const targetEl = document.getElementById('last-updated');
+            targetEl.classList.remove('status-syncing');
+            targetEl.innerText = `[ 取得時間: ${lastRefreshString} | 欲獲取最新狀態請重新整理網頁 ]`;
+        }
+
+        function setSyncingState() {
+            const targetEl = document.getElementById('last-updated');
+            targetEl.innerText = `[ 🔄 正在同步最新資料... 請稍候 ]`;
+            targetEl.classList.add('status-syncing'); 
+        }
+
+        function initNavigation() {
+            const navMenu = document.getElementById('navMenu');
+            LOG_SOURCES.forEach((source, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'nav-btn';
+                btn.id = `btn-log-${index}`;
+                btn.innerText = `[ ${source.name} ]`;
+                btn.onclick = () => showLogDetail(index);
+                navMenu.appendChild(btn);
+            });
+        }
+
+        async function fetchWithTimeout(resource, options = {}) {
+            const { timeout = 8000 } = options;
+            const controller = new AbortController();
+            const id = setTimeout(() => controller.abort(), timeout);
+            
+            try {
+                const response = await fetch(resource, { ...options, cache: 'no-store', signal: controller.signal });
+                clearTimeout(id);
+                return response;
+            } catch (error) {
+                clearTimeout(id);
+                throw error;
+            }
+        }
+
+        async function fetchLogContent(source) {
+            const timestamp = new Date().getTime(); 
+
+            if (source.url) {
+                const fetchUrl = `${source.url}?t=${timestamp}`;
+                try {
+                    const response = await fetchWithTimeout(fetchUrl, { timeout: 5000 });
+                    if (response.ok) {
+                        const text = await response.text();
+                        if (text.trim() === '404: Not Found' || text.trim().startsWith('<!DOCTYPE html>')) {
+                            return `[ 系統警示 ] 檔案讀取失敗：${source.name}\n--------------------------------\n找不到該檔案，或伺服器回傳了網頁。請確認 GitHub Actions 是否已部署完成。`;
+                        }
+                        return text || `[ 系統提示 ] ${source.name} 紀錄檔目前為空。`;
+                    } else {
+                        return `[ 系統警示 ] 檔案讀取失敗：${source.name} (HTTP ${response.status})`;
+                    }
+                } catch (error) {
+                    return `[ 系統警示 ] 無法連線讀取：${source.name} (${error.message})`;
+                }
+            }
+        }
+
+        function analyzeLog(text, sourceName) {
+            if (text.includes('[ 系統警示 ]')) return { source: sourceName, status: 'error', message: text };
+
+            const lines = text.split('\n');
+            const lowerKeywords = ERROR_KEYWORDS.map(k => k.toLowerCase());
+            const lowerSafeKeywords = SAFE_KEYWORDS.map(k => k.toLowerCase());
+            const now = Date.now();
+            const TWENTY_FOUR_HOURS_MS = 24 * 60 * 60 * 1000;
+
+            // 判斷是否為結構化 log（含 [INFO]/[WARNING]/[ERROR] 標籤，如 sync.log）
+            const isStructuredLog = lines.some(l => /\[(INFO|WARNING|ERROR)\]/.test(l));
+
+            for (let i = lines.length - 1; i >= 0; i--) {
+                const currentLine = lines[i].trim();
+                if (!currentLine) continue;
+
+                const dateMatch = currentLine.match(/\b(20\d{2}[-/\.]\d{1,2}[-/\.]\d{1,2}(?:[\sT]\d{1,2}:\d{2}(?::\d{2})?)?)\b/);
+                if (dateMatch) {
+                    const logDate = new Date(dateMatch[1]).getTime();
+                    if (!isNaN(logDate) && (now - logDate > TWENTY_FOUR_HOURS_MS)) break;
+                }
+
+                const lowerLine = currentLine.toLowerCase();
+                const isSafe = lowerSafeKeywords.some(safeKeyword => lowerLine.includes(safeKeyword));
+                if (isSafe) continue;
+
+                if (isStructuredLog) {
+                    // 結構化 log：只有明確 [ERROR] 或 [WARNING] 才算異常，[INFO] 一律忽略
+                    if (/\[ERROR\]/.test(currentLine) || /\[WARNING\]/.test(currentLine)) {
+                        const startIdx = Math.max(0, i - 1);
+                        const endIdx = Math.min(lines.length - 1, i + 1);
+                        const snippet = lines.slice(startIdx, endIdx + 1).join('\n');
+                        return { source: sourceName, status: 'error', message: snippet };
+                    }
+                } else {
+                    // 非結構化 log（SYNGBOT 等）：維持關鍵字掃描邏輯
+                    const hasError = lowerKeywords.some(keyword => lowerLine.includes(keyword));
+                    if (hasError) {
+                        const startIdx = Math.max(0, i - 1);
+                        const endIdx = Math.min(lines.length - 1, i + 1);
+                        const snippet = lines.slice(startIdx, endIdx + 1).join('\n');
+                        return { source: sourceName, status: 'error', message: snippet };
+                    }
+                }
+            }
+
+            return { source: sourceName, status: 'ok', message: '[ STATUS: NORMAL ] 24小時內未偵測到異常。系統運行中。' };
+        }
+
+        async function scanAllLogs() {
+            setSyncingState(); 
+            const container = document.getElementById('dashboardContent');
+
+            const reports = [];
+            for (const source of LOG_SOURCES) {
+                const cacheKey = source.url || source.fileId;
+                let text = logCache[cacheKey]; 
+                
+                if (!text) {
+                    text = await fetchLogContent(source);
+                    logCache[cacheKey] = text;
+                }
+                
+                const report = analyzeLog(text, source.name);
+                reports.push(report);
+            }
+
+            container.innerHTML = '';
+            reports.forEach(report => {
+                const div = document.createElement('div');
+                div.className = `log-entry ${report.status === 'error' ? 'error-alert' : ''}`;
+                const icon = report.status === 'error' ? '⚠️ [警告/錯誤]' : '✅ [正常]';
+                
+                div.innerHTML = `
+                    <div class="source-tag">${icon} 來源：${report.source}</div>
+                    <div class="message">${escapeHTML(report.message)}</div>
+                `;
+                container.appendChild(div);
+            });
+
+            updateLastRefreshTime(); 
+        }
+
+        function showView(viewName) {
+            document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+            if (viewName === 'dashboard') {
+                document.getElementById('btn-dashboard').classList.add('active');
+                document.getElementById('view-dashboard').style.display = 'block';
+                document.getElementById('view-detail').style.display = 'none';
+                scanAllLogs();
+            }
+        }
+
+        async function showLogDetail(index) {
+            const source = LOG_SOURCES[index];
+            document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(`btn-log-${index}`).classList.add('active');
+            
+            document.getElementById('view-dashboard').style.display = 'none';
+            document.getElementById('view-detail').style.display = 'block';
+            document.getElementById('detailTitle').innerText = `>> 完整日誌：${source.name}`;
+            
+            const viewer = document.getElementById('rawLogView');
+
+            const cacheKey = source.url || source.fileId;
+            let text = logCache[cacheKey];
+            
+            if (!text || text.includes('[ 系統警示 ]')) {
+                viewer.innerHTML = '<span class="loading">讀取檔案中...</span>';
+                text = await fetchLogContent(source);
+                logCache[cacheKey] = text;
+            }
+
+            viewer.textContent = text;
+            viewer.scrollTop = viewer.scrollHeight; 
+        }
+
+        /* ── 平衡原則 Modal 控制 ── */
+        function openBalanceModal() {
+            document.getElementById('balanceModal').classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeBalanceModal() {
+            document.getElementById('balanceModal').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+        function handleModalOverlayClick(e) {
+            if (e.target === document.getElementById('balanceModal')) {
+                closeBalanceModal();
+            }
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeBalanceModal();
+        });
+    </script>
+</body>
+</html>
