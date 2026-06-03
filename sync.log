@@ -1,12 +1,3 @@
-2026-06-02 10:26:22 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-06-02 10:26:25 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-06-02 10:26:25 [INFO] ====== GDriveSync 結束 ======
-
-2026-06-02 10:35:02 [INFO] ====== GDriveSync 啟動 ======
-2026-06-02 10:35:02 [INFO] 資料庫初始化完成
-2026-06-02 10:35:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-06-02 10:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-06-02 10:35:02 [INFO] --- 開始增量同步 ---
 2026-06-02 10:36:27 [INFO] [NAS讀取] 2026年-小額預算調查轉出報表-全1126_FMCSfix0126.xls (NAS勝)
 2026-06-02 10:36:30 [INFO] [Drive新增] 2026年-小額預算調查轉出報表-全1126_FMCSfix0126.xls
 2026-06-02 10:36:30 [INFO] [NAS讀取] AddressBook20260602.csv (NAS勝)
@@ -1345,3 +1336,12 @@
 2026-06-03 10:25:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-06-03 10:25:02 [INFO] --- 開始增量同步 ---
 2026-06-03 10:26:31 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-06-03 10:26:33 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-06-03 10:26:33 [INFO] ====== GDriveSync 結束 ======
+
+2026-06-03 10:35:02 [INFO] ====== GDriveSync 啟動 ======
+2026-06-03 10:35:02 [INFO] 資料庫初始化完成
+2026-06-03 10:35:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-06-03 10:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-06-03 10:35:02 [INFO] --- 開始增量同步 ---
+2026-06-03 10:36:26 [INFO] --- 增量同步完成，pageToken 已更新 ---
