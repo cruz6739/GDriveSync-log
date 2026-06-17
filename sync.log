@@ -1,9 +1,3 @@
-2026-06-16 10:38:40 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-06-16 10:38:42 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-06-16 10:38:42 [INFO] ====== GDriveSync 結束 ======
-
-2026-06-16 10:45:02 [INFO] ====== GDriveSync 啟動 ======
-2026-06-16 10:45:02 [INFO] 資料庫初始化完成
 2026-06-16 10:45:03 [INFO] Token refresh 成功
 2026-06-16 10:45:03 [INFO] file_cache is only supported with oauth2client<4.0.0
 2026-06-16 10:45:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
@@ -1368,3 +1362,13 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-06-17 10:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-06-17 10:35:02 [INFO] --- 開始增量同步 ---
 2026-06-17 10:39:04 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-06-17 10:39:06 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-06-17 10:39:06 [INFO] ====== GDriveSync 結束 ======
+
+2026-06-17 10:45:02 [INFO] ====== GDriveSync 啟動 ======
+2026-06-17 10:45:02 [INFO] 資料庫初始化完成
+2026-06-17 10:45:02 [INFO] Token refresh 成功
+2026-06-17 10:45:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-06-17 10:45:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-06-17 10:45:02 [INFO] --- 開始增量同步 ---
+2026-06-17 10:49:05 [INFO] --- 增量同步完成，pageToken 已更新 ---
