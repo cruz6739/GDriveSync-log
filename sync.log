@@ -1,14 +1,3 @@
-2026-06-16 13:59:14 [INFO] [NAS讀取] FMCS_coo report-0616-1143.pptx (NAS勝)
-2026-06-16 14:01:12 [INFO] [Drive更新] FMCS_coo report-0616-1143.pptx
-2026-06-16 14:01:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-06-16 14:01:23 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-06-16 14:01:23 [INFO] ====== GDriveSync 結束 ======
-
-2026-06-16 14:05:02 [INFO] ====== GDriveSync 啟動 ======
-2026-06-16 14:05:02 [INFO] 資料庫初始化完成
-2026-06-16 14:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-06-16 14:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-06-16 14:05:02 [INFO] --- 開始增量同步 ---
 2026-06-16 14:09:17 [INFO] [下載更新] 0108.JPG (Drive勝)
 2026-06-16 14:09:17 [INFO] [NAS寫入] 0108.JPG
 2026-06-16 14:09:18 [INFO] [下載更新] 0106.JPG (Drive勝)
@@ -1344,3 +1333,12 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-06-17 13:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-06-17 13:55:02 [INFO] --- 開始增量同步 ---
 2026-06-17 13:59:10 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-06-17 13:59:13 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-06-17 13:59:13 [INFO] ====== GDriveSync 結束 ======
+
+2026-06-17 14:05:02 [INFO] ====== GDriveSync 啟動 ======
+2026-06-17 14:05:02 [INFO] 資料庫初始化完成
+2026-06-17 14:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-06-17 14:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-06-17 14:05:02 [INFO] --- 開始增量同步 ---
+2026-06-17 14:09:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
