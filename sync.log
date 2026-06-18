@@ -1,18 +1,3 @@
-2026-06-17 17:09:16 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-06-17 17:09:19 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-06-17 17:09:19 [INFO] ====== GDriveSync 結束 ======
-
-2026-06-17 17:15:02 [INFO] ====== GDriveSync 啟動 ======
-2026-06-17 17:15:02 [INFO] 資料庫初始化完成
-2026-06-17 17:15:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-06-17 17:15:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-06-17 17:15:02 [INFO] --- 開始增量同步 ---
-2026-06-17 17:19:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-06-17 17:19:23 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-06-17 17:19:23 [INFO] ====== GDriveSync 結束 ======
-
-2026-06-17 17:25:02 [INFO] ====== GDriveSync 啟動 ======
-2026-06-17 17:25:02 [INFO] 資料庫初始化完成
 2026-06-17 17:25:03 [INFO] file_cache is only supported with oauth2client<4.0.0
 2026-06-17 17:25:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-06-17 17:25:03 [INFO] --- 開始增量同步 ---
@@ -1350,3 +1335,14 @@
 2026-06-18 17:15:47 [INFO] [刪除本地] che-1.png
 2026-06-18 17:15:48 [INFO] [Drive刪除] che-1.png
 2026-06-18 17:15:48 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-06-18 17:15:51 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-06-18 17:15:51 [INFO] ====== GDriveSync 結束 ======
+
+2026-06-18 17:25:03 [INFO] ====== GDriveSync 啟動 ======
+2026-06-18 17:25:03 [INFO] 資料庫初始化完成
+2026-06-18 17:25:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-06-18 17:25:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-06-18 17:25:03 [INFO] --- 開始增量同步 ---
+2026-06-18 17:27:58 [INFO] [下載更新] FMCS Program-260614.pptx (Drive勝)
+2026-06-18 17:28:00 [INFO] [NAS寫入] FMCS Program-260614.pptx
+2026-06-18 17:28:06 [INFO] --- 增量同步完成，pageToken 已更新 ---
