@@ -1,16 +1,3 @@
-2026-06-19 00:45:03 [INFO] Token refresh 成功
-2026-06-19 00:45:03 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-06-19 00:45:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-06-19 00:45:03 [INFO] --- 開始增量同步 ---
-2026-06-19 00:49:07 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-06-19 00:49:10 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-06-19 00:49:10 [INFO] ====== GDriveSync 結束 ======
-
-2026-06-19 00:55:02 [INFO] ====== GDriveSync 啟動 ======
-2026-06-19 00:55:02 [INFO] 資料庫初始化完成
-2026-06-19 00:55:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-06-19 00:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-06-19 00:55:02 [INFO] --- 開始增量同步 ---
 2026-06-19 00:59:12 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-06-19 00:59:14 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
 2026-06-19 00:59:14 [INFO] ====== GDriveSync 結束 ======
@@ -1323,3 +1310,12 @@
 2026-06-20 00:45:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-06-20 00:45:03 [INFO] --- 開始增量同步 ---
 2026-06-20 00:49:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-06-20 00:49:23 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
+2026-06-20 00:49:23 [INFO] ====== GDriveSync 結束 ======
+
+2026-06-20 00:55:02 [INFO] ====== GDriveSync 啟動 ======
+2026-06-20 00:55:02 [INFO] 資料庫初始化完成
+2026-06-20 00:55:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-06-20 00:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-06-20 00:55:02 [INFO] --- 開始增量同步 ---
+2026-06-20 00:59:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
