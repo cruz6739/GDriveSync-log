@@ -1,14 +1,3 @@
-2026-07-02 13:05:45 [INFO] [NAS讀取] Jerome.jpg (NAS勝)
-2026-07-02 13:05:49 [INFO] [Drive新增] Jerome.jpg
-2026-07-02 13:05:49 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-07-02 13:05:52 [INFO] [GitHub] sync.log、health_check.log 與 index.html 已推送至 https://github.com/cruz6739/GDriveSync-log
-2026-07-02 13:05:52 [INFO] ====== GDriveSync 結束 ======
-
-2026-07-02 13:15:02 [INFO] ====== GDriveSync 啟動 ======
-2026-07-02 13:15:02 [INFO] 資料庫初始化完成
-2026-07-02 13:15:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-07-02 13:15:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-07-02 13:15:02 [INFO] --- 開始增量同步 ---
 2026-07-02 13:15:44 [INFO] [刪除本地] NAXX001.jpg
 2026-07-02 13:15:45 [INFO] [Drive刪除] NAXX001.jpg
 2026-07-02 13:15:45 [INFO] [NAS刪除] NAXX001.jpg
@@ -1304,3 +1293,12 @@
 2026-07-03 13:05:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-07-03 13:05:03 [INFO] --- 開始增量同步 ---
 2026-07-03 13:05:46 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-07-03 13:05:49 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-07-03 13:05:49 [INFO] ====== GDriveSync 結束 ======
+
+2026-07-03 13:15:02 [INFO] ====== GDriveSync 啟動 ======
+2026-07-03 13:15:02 [INFO] 資料庫初始化完成
+2026-07-03 13:15:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-07-03 13:15:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-07-03 13:15:03 [INFO] --- 開始增量同步 ---
+2026-07-03 13:15:46 [INFO] --- 增量同步完成，pageToken 已更新 ---
