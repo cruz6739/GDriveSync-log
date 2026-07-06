@@ -1,9 +1,3 @@
-2026-07-05 15:55:38 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-07-05 15:55:41 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-07-05 15:55:41 [INFO] ====== GDriveSync 結束 ======
-
-2026-07-05 16:05:02 [INFO] ====== GDriveSync 啟動 ======
-2026-07-05 16:05:02 [INFO] 資料庫初始化完成
 2026-07-05 16:05:03 [INFO] Token refresh 成功
 2026-07-05 16:05:03 [INFO] file_cache is only supported with oauth2client<4.0.0
 2026-07-05 16:05:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
@@ -1350,3 +1344,15 @@
 2026-07-06 15:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-07-06 15:55:02 [INFO] --- 開始增量同步 ---
 2026-07-06 15:55:46 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-07-06 15:55:49 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-07-06 15:55:49 [INFO] ====== GDriveSync 結束 ======
+
+2026-07-06 16:05:02 [INFO] ====== GDriveSync 啟動 ======
+2026-07-06 16:05:02 [INFO] 資料庫初始化完成
+2026-07-06 16:05:03 [INFO] Token refresh 成功
+2026-07-06 16:05:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-07-06 16:05:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-07-06 16:05:03 [INFO] --- 開始增量同步 ---
+2026-07-06 16:05:38 [INFO] [NAS讀取] 20260706_W28_weekly_report.pdf (NAS勝)
+2026-07-06 16:05:40 [INFO] [Drive新增] 20260706_W28_weekly_report.pdf
+2026-07-06 16:05:40 [INFO] --- 增量同步完成，pageToken 已更新 ---
