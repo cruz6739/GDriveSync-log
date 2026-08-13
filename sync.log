@@ -1380,3 +1380,6 @@
 2026-08-13 14:27:36 [INFO] [刪除本地] DID工作計畫v2.xlsx
 2026-08-13 14:27:36 [INFO] [Drive刪除] DID工作計畫v2.xlsx
 2026-08-13 14:27:37 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-08-13 14:27:39 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-08-13 14:27:39 [INFO] ====== GDriveSync 結束 ======
+
