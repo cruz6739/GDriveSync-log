@@ -1,26 +1,3 @@
-2026-08-13 14:55:02 [INFO] ====== GDriveSync 啟動 ======
-2026-08-13 14:55:02 [INFO] 資料庫初始化完成
-2026-08-13 14:55:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-08-13 14:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-08-13 14:55:02 [INFO] --- 開始增量同步 ---
-2026-08-13 14:55:15 [INFO] [下載更新] AddressBook260813.csv (Drive勝)
-2026-08-13 14:55:15 [INFO] [NAS寫入] AddressBook260813.csv
-2026-08-13 14:55:15 [INFO] [刪除本地] 2025告警次數與失效統計整合表.xlsx
-2026-08-13 14:55:16 [INFO] [Drive刪除] 2025告警次數與失效統計整合表.xlsx
-2026-08-13 14:55:16 [INFO] [刪除本地] 2026-Weekly-Calendar-0625-1033.xlsx
-2026-08-13 14:55:18 [INFO] [Drive刪除] 2026-Weekly-Calendar-0625-1033.xlsx
-2026-08-13 14:55:18 [INFO] [刪除本地] 01-暫存申報查詢-山鶯廠 0708.xlsx
-2026-08-13 14:55:19 [INFO] [Drive刪除] 01-暫存申報查詢-山鶯廠 0708.xlsx
-2026-08-13 14:55:47 [INFO] [下載更新] FMCS Program.pptx (Drive勝)
-2026-08-13 14:55:48 [INFO] [NAS寫入] FMCS Program.pptx
-2026-08-13 14:55:57 [INFO] [刪除本地] 廢棄物查核基本資料.xlsx
-2026-08-13 14:55:58 [INFO] [Drive刪除] 廢棄物查核基本資料.xlsx
-2026-08-13 14:55:58 [INFO] [刪除本地] KF2 FMCS建置.pdf
-2026-08-13 14:55:59 [INFO] [Drive刪除] KF2 FMCS建置.pdf
-2026-08-13 14:55:59 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-08-13 14:56:02 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-08-13 14:56:02 [INFO] ====== GDriveSync 結束 ======
-
 2026-08-13 15:05:02 [INFO] ====== GDriveSync 啟動 ======
 2026-08-13 15:05:02 [INFO] 資料庫初始化完成
 2026-08-13 15:05:03 [INFO] Token refresh 成功
@@ -1338,3 +1315,13 @@
 2026-08-14 14:55:01 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-08-14 14:55:01 [INFO] --- 開始增量同步 ---
 2026-08-14 14:55:13 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-08-14 14:55:15 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-08-14 14:55:15 [INFO] ====== GDriveSync 結束 ======
+
+2026-08-14 15:05:01 [INFO] ====== GDriveSync 啟動 ======
+2026-08-14 15:05:01 [INFO] 資料庫初始化完成
+2026-08-14 15:05:02 [INFO] Token refresh 成功
+2026-08-14 15:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-08-14 15:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-08-14 15:05:02 [INFO] --- 開始增量同步 ---
+2026-08-14 15:05:13 [INFO] --- 增量同步完成，pageToken 已更新 ---
