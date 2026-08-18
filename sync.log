@@ -1351,3 +1351,6 @@
 2026-08-18 16:35:15 [INFO] [下載更新] 2fded37d-e36c-4015-aee9-812bc622b914.png (Drive勝)
 2026-08-18 16:35:15 [INFO] [NAS寫入] 2fded37d-e36c-4015-aee9-812bc622b914.png
 2026-08-18 16:35:15 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-08-18 16:35:18 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-08-18 16:35:18 [INFO] ====== GDriveSync 結束 ======
+
