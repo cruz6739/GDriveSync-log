@@ -1339,3 +1339,6 @@
 2026-08-21 15:45:12 [INFO] [刪除本地] 0fb45ba0-facb-46c6-a011-851fa02bdb4b.png
 2026-08-21 15:45:13 [INFO] [Drive刪除] 0fb45ba0-facb-46c6-a011-851fa02bdb4b.png
 2026-08-21 15:45:13 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-08-21 15:45:17 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-08-21 15:45:17 [INFO] ====== GDriveSync 結束 ======
+
