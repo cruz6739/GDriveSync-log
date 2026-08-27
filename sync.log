@@ -1318,3 +1318,4 @@
 2026-08-27 12:05:03 [INFO] file_cache is only supported with oauth2client<4.0.0
 2026-08-27 12:05:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-08-27 12:05:03 [INFO] --- 開始增量同步 ---
+2026-08-27 12:05:16 [INFO] --- 增量同步完成，pageToken 已更新 ---
