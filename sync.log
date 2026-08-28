@@ -1338,3 +1338,6 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-08-28 23:05:04 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-08-28 23:05:04 [INFO] --- 開始增量同步 ---
 2026-08-28 23:05:15 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-08-28 23:05:18 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-08-28 23:05:18 [INFO] ====== GDriveSync 結束 ======
+
