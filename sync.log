@@ -1,23 +1,3 @@
-2026-08-28 11:15:13 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-08-28 11:15:16 [WARNING] [GitHub] command failed, retry 1/1: remote: Internal Server Error        
-remote: Request ID 270E:15CC0C:5CA5A0:84B1FE:6A90FD43        
-remote: Time 2026-08-28T03:15:16Z
-To https://github.com/cruz6739/GDriveSync-log
- ! [remote rejected]     main -> main (Internal Server Error)
-error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
-2026-08-28 11:15:25 [ERROR] [GitHub] git push failed or timed out: remote: Internal Server Error        
-remote: Request ID 2D4A:14A549:88A068:BA826E:6A90FD4A        
-remote: Time 2026-08-28T03:15:25Z
-To https://github.com/cruz6739/GDriveSync-log
- ! [remote rejected]     main -> main (Internal Server Error)
-error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
-2026-08-28 11:15:25 [INFO] ====== GDriveSync 結束 ======
-
-2026-08-28 11:25:02 [INFO] ====== GDriveSync 啟動 ======
-2026-08-28 11:25:02 [INFO] 資料庫初始化完成
-2026-08-28 11:25:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-08-28 11:25:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-08-28 11:25:02 [INFO] --- 開始增量同步 ---
 2026-08-28 11:25:13 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-08-28 11:25:16 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-08-28 11:25:16 [INFO] ====== GDriveSync 結束 ======
@@ -1330,3 +1310,12 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-08-29 11:15:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-08-29 11:15:02 [INFO] --- 開始增量同步 ---
 2026-08-29 11:15:13 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-08-29 11:15:16 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-08-29 11:15:16 [INFO] ====== GDriveSync 結束 ======
+
+2026-08-29 11:25:02 [INFO] ====== GDriveSync 啟動 ======
+2026-08-29 11:25:02 [INFO] 資料庫初始化完成
+2026-08-29 11:25:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-08-29 11:25:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-08-29 11:25:02 [INFO] --- 開始增量同步 ---
+2026-08-29 11:25:14 [INFO] --- 增量同步完成，pageToken 已更新 ---
