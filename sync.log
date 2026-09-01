@@ -1337,3 +1337,6 @@
 2026-09-01 10:05:16 [INFO] [下載更新] QA.txt (Drive勝)
 2026-09-01 10:05:16 [INFO] [NAS寫入] QA.txt
 2026-09-01 10:05:16 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-09-01 10:05:18 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-01 10:05:18 [INFO] ====== GDriveSync 結束 ======
+
