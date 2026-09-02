@@ -1333,3 +1333,6 @@ nothing to commit, working tree clean
 2026-09-02 16:15:14 [INFO] [NAS讀取] QA.txt (NAS勝)
 2026-09-02 16:15:17 [INFO] [Drive更新] QA.txt
 2026-09-02 16:15:17 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-09-02 16:15:22 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-02 16:15:22 [INFO] ====== GDriveSync 結束 ======
+
