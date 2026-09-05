@@ -385,3 +385,16 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-09-05 20:06:53 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-09-05 20:06:53 [INFO] [Healthy] 巡檢紀錄已即時推送至 GitHub。
 2026-09-05 20:06:53 [INFO] 下次巡檢將在 1 小時後自動啟動，休眠中...
+2026-09-05 21:06:54 [INFO] ============================================================
+2026-09-05 21:06:54 [INFO]   [巡檢] 開始健康巡檢  [2026-09-05 21:06:54]
+2026-09-05 21:06:54 [INFO] ============================================================
+2026-09-05 21:06:54 [INFO]   [SKIP] ESHmanager monitoring and notifications are paused by LINEBOT_ESHMANAGER_MONITORING
+2026-09-05 21:06:54 [INFO]   [OK]  SYNGBOT ALM_BOT (Port 5000)
+2026-09-05 21:06:54 [INFO]   [OK]  SYNGBOT Admin Server (Port 5600)
+2026-09-05 21:06:54 [INFO]   [OK]  SYNGBOT Ngrok 外網隧道
+2026-09-05 21:06:54 [INFO]   [OK]  free-claude-code 代理 (Port 8082)
+2026-09-05 21:06:55 [INFO]   [OK]  EFplant 排程服務 (main.py/工作排程器)
+2026-09-05 21:06:55 [INFO]   [OK]  GDriveSync 同步排程
+2026-09-05 21:06:55 [INFO] 所有服務均正常，本輪無異常，不啟動修復程序，亦不發送 Line 通知。
+2026-09-05 21:06:55 [INFO] 本輪巡檢完成：6/6 項正常，下次巡檢：22:06:55
+2026-09-05 21:06:55 [INFO] 
