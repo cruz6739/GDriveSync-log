@@ -1,9 +1,3 @@
-2026-09-10 16:55:13 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-09-10 16:55:16 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-09-10 16:55:16 [INFO] ====== GDriveSync 結束 ======
-
-2026-09-10 17:05:02 [INFO] ====== GDriveSync 啟動 ======
-2026-09-10 17:05:02 [INFO] 資料庫初始化完成
 2026-09-10 17:05:03 [INFO] Token refresh 成功
 2026-09-10 17:05:03 [INFO] file_cache is only supported with oauth2client<4.0.0
 2026-09-10 17:05:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
@@ -1322,3 +1316,19 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-09-11 16:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-09-11 16:55:02 [INFO] --- 開始增量同步 ---
 2026-09-11 16:55:13 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-09-11 16:55:16 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-11 16:55:16 [INFO] ====== GDriveSync 結束 ======
+
+2026-09-11 17:05:02 [INFO] ====== GDriveSync 啟動 ======
+2026-09-11 17:05:02 [INFO] 資料庫初始化完成
+2026-09-11 17:05:02 [INFO] Token refresh 成功
+2026-09-11 17:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-11 17:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-09-11 17:05:02 [INFO] --- 開始增量同步 ---
+2026-09-11 17:05:14 [INFO] [NAS讀取] W36 EF週報_(數位整合部).pptx (NAS勝)
+2026-09-11 17:05:18 [INFO] [Drive新增] W36 EF週報_(數位整合部).pptx
+2026-09-11 17:05:19 [INFO] [NAS讀取] 環廠處_2027BP_v2.pptx (NAS勝)
+2026-09-11 17:05:23 [INFO] [Drive新增] 環廠處_2027BP_v2.pptx
+2026-09-11 17:05:23 [INFO] [NAS讀取] W37 EF週報_(數位整合部).pptx (NAS勝)
+2026-09-11 17:05:27 [INFO] [Drive新增] W37 EF週報_(數位整合部).pptx
+2026-09-11 17:05:28 [INFO] --- 增量同步完成，pageToken 已更新 ---
