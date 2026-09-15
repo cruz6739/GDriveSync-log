@@ -1321,3 +1321,6 @@
 2026-09-15 10:15:13 [INFO] [NAS讀取] AddressBook260901.csv (NAS勝)
 2026-09-15 10:15:17 [INFO] [Drive更新] AddressBook260901.csv
 2026-09-15 10:15:17 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-09-15 10:15:20 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-15 10:15:20 [INFO] ====== GDriveSync 結束 ======
+
