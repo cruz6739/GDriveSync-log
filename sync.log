@@ -1400,3 +1400,4 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-09-16 17:15:23 [INFO] [NAS讀取] W37 EF週報_(數位整合部).pptx (NAS勝)
 2026-09-16 17:15:29 [INFO] [Drive更新] W37 EF週報_(數位整合部).pptx
 2026-09-16 17:15:29 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-09-16 17:15:33 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
