@@ -521,3 +521,4 @@
 2026-09-20 19:25:14 [INFO]   [OK]  SYNGBOT Admin Server (Port 5600)
 2026-09-20 19:25:14 [INFO]   [OK]  SYNGBOT Ngrok 外網隧道
 2026-09-20 19:25:14 [INFO]   [OK]  free-claude-code 代理 (Port 8082)
+2026-09-20 19:25:18 [INFO]   [OK]  EFplant-Cloudflare 更新服務 (main.py/工作排程器)
