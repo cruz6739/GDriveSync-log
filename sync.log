@@ -1,13 +1,3 @@
-2026-09-28 12:45:15 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-09-28 12:45:19 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-09-28 12:45:23 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-09-28 12:45:23 [INFO] ====== GDriveSync 結束 ======
-
-2026-09-28 12:55:02 [INFO] ====== GDriveSync 啟動 ======
-2026-09-28 12:55:02 [INFO] 資料庫初始化完成
-2026-09-28 12:55:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-09-28 12:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-09-28 12:55:02 [INFO] --- 開始增量同步 ---
 2026-09-28 12:55:15 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-09-28 12:55:19 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-09-28 12:55:23 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1471,3 +1461,18 @@
 2026-09-29 12:46:09 [INFO] [Drive新增] 0dd72159-5b85-45ef-9558-c9ce0e4044fa.png
 2026-09-29 12:46:10 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-09-29 12:46:14 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-29 12:46:17 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-29 12:46:17 [INFO] ====== GDriveSync 結束 ======
+
+2026-09-29 12:55:02 [INFO] ====== GDriveSync 啟動 ======
+2026-09-29 12:55:02 [INFO] 資料庫初始化完成
+2026-09-29 12:55:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-09-29 12:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-09-29 12:55:02 [INFO] --- 開始增量同步 ---
+2026-09-29 12:55:18 [INFO] [下載更新] 0dd72159-5b85-45ef-9558-c9ce0e4044fa.png (Drive勝)
+2026-09-29 12:55:18 [INFO] [NAS寫入] 0dd72159-5b85-45ef-9558-c9ce0e4044fa.png
+2026-09-29 12:55:32 [INFO] [下載更新] 數位整合部27年度方針專案.pptx (Drive勝)
+2026-09-29 12:55:32 [ERROR] [錯誤] 處理 數位整合部27年度方針專案.pptx：[WinError 32] 程序無法存取檔案，因為檔案正由另一個程序使用。
+2026-09-29 12:55:32 [INFO] [NAS讀取] ChatGPT 圖像 2026年9月29日 下午12_45_28.png (NAS勝)
+2026-09-29 12:55:40 [INFO] [Drive新增] ChatGPT 圖像 2026年9月29日 下午12_45_28.png
+2026-09-29 12:55:40 [INFO] --- 增量同步完成，pageToken 已更新 ---
