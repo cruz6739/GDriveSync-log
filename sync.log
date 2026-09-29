@@ -1523,3 +1523,6 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-09-30 07:35:37 [INFO] [Drive更新] 數位整合部27年度方針專案v3.pptx
 2026-09-30 07:35:38 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-09-30 07:35:42 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-30 07:35:46 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-30 07:35:46 [INFO] ====== GDriveSync 結束 ======
+
