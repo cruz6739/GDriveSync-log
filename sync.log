@@ -1470,3 +1470,4 @@
 2026-09-29 12:46:03 [INFO] [NAS讀取] 0dd72159-5b85-45ef-9558-c9ce0e4044fa.png (NAS勝)
 2026-09-29 12:46:09 [INFO] [Drive新增] 0dd72159-5b85-45ef-9558-c9ce0e4044fa.png
 2026-09-29 12:46:10 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-09-29 12:46:14 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
