@@ -1532,3 +1532,6 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-09-30 12:35:02 [INFO] --- 開始增量同步 ---
 2026-09-30 12:35:22 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-09-30 12:35:26 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-30 12:35:30 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-09-30 12:35:30 [INFO] ====== GDriveSync 結束 ======
+
