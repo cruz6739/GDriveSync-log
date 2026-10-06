@@ -1478,3 +1478,4 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-10-06 17:45:22 [INFO] [下載更新] W40 EF週報_(數位整合部)_inside02.pptx (Drive勝)
 2026-10-06 17:45:22 [INFO] [NAS寫入] W40 EF週報_(數位整合部)_inside02.pptx
 2026-10-06 17:45:22 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-10-06 17:45:26 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
