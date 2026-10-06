@@ -1472,3 +1472,4 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-10-06 14:15:17 [INFO] [NAS讀取] review_count_追蹤總結.pptx (NAS勝)
 2026-10-06 14:15:20 [INFO] [Drive新增] review_count_追蹤總結.pptx
 2026-10-06 14:15:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-10-06 14:15:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
