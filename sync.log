@@ -1510,3 +1510,4 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-10-08 16:35:31 [INFO] [下載更新] 20170420_FMCS Room Platform.mp4 (Drive勝)
 2026-10-08 16:35:31 [INFO] [NAS寫入] 20170420_FMCS Room Platform.mp4
 2026-10-08 16:35:32 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-10-08 16:35:36 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
