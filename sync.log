@@ -1466,3 +1466,6 @@
 2026-10-09 18:15:20 [INFO] [Drive更新] account.csv
 2026-10-09 18:15:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-09 18:15:23 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-09 18:15:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-09 18:15:27 [INFO] ====== GDriveSync 結束 ======
+
