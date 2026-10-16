@@ -1,13 +1,3 @@
-2026-10-15 13:45:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-10-15 13:45:25 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-15 13:45:28 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-15 13:45:28 [INFO] ====== GDriveSync 結束 ======
-
-2026-10-15 13:55:02 [INFO] ====== GDriveSync 啟動 ======
-2026-10-15 13:55:02 [INFO] 資料庫初始化完成
-2026-10-15 13:55:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-10-15 13:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-10-15 13:55:02 [INFO] --- 開始增量同步 ---
 2026-10-15 13:55:17 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-15 13:55:21 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-10-15 13:55:25 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1536,3 +1526,12 @@
 2026-10-16 13:45:27 [ERROR] [錯誤] 處理 FMCS承包商評比報告 (1).pptx：[WinError 32] 程序無法存取檔案，因為檔案正由另一個程序使用。
 2026-10-16 13:45:27 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-16 13:45:31 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-16 13:45:35 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-16 13:45:35 [INFO] ====== GDriveSync 結束 ======
+
+2026-10-16 13:55:02 [INFO] ====== GDriveSync 啟動 ======
+2026-10-16 13:55:02 [INFO] 資料庫初始化完成
+2026-10-16 13:55:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-10-16 13:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-10-16 13:55:02 [INFO] --- 開始增量同步 ---
+2026-10-16 13:55:17 [INFO] --- 增量同步完成，pageToken 已更新 ---
