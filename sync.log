@@ -1,13 +1,3 @@
-2026-10-20 10:35:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-10-20 10:35:23 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-20 10:35:26 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-20 10:35:26 [INFO] ====== GDriveSync 結束 ======
-
-2026-10-20 10:45:02 [INFO] ====== GDriveSync 啟動 ======
-2026-10-20 10:45:02 [INFO] 資料庫初始化完成
-2026-10-20 10:45:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-10-20 10:45:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-10-20 10:45:02 [INFO] --- 開始增量同步 ---
 2026-10-20 10:45:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-20 10:45:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-10-20 10:45:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1470,3 +1460,51 @@
 2026-10-21 10:35:03 [INFO] file_cache is only supported with oauth2client<4.0.0
 2026-10-21 10:35:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-10-21 10:35:03 [INFO] --- 開始增量同步 ---
+2026-10-21 10:45:03 [INFO] ====== GDriveSync 啟動 ======
+2026-10-21 10:45:03 [INFO] 資料庫初始化完成
+2026-10-21 10:45:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-10-21 10:45:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-10-21 10:45:03 [INFO] --- 開始增量同步 ---
+2026-10-21 10:45:19 [INFO] [刪除本地] 承商基本信息表_金裕盛工程有限公司.xlsx
+2026-10-21 10:45:20 [INFO] [Drive刪除] 承商基本信息表_金裕盛工程有限公司.xlsx
+2026-10-21 10:45:20 [INFO] [刪除本地] FMCS承包商評比報告 (10161430).pptx
+2026-10-21 10:45:21 [INFO] [Drive刪除] FMCS承包商評比報告 (10161430).pptx
+2026-10-21 10:45:21 [INFO] [刪除本地] FMCS廠商基本信息表(YP)_興訊回填.xlsx
+2026-10-21 10:45:22 [INFO] [Drive刪除] FMCS廠商基本信息表(YP)_興訊回填.xlsx
+2026-10-21 10:45:22 [INFO] [刪除本地] FMCS廠商基本信息表(玄通科技)-20210916.xlsx
+2026-10-21 10:45:23 [INFO] [Drive刪除] FMCS廠商基本信息表(玄通科技)-20210916.xlsx
+2026-10-21 10:45:23 [INFO] [刪除本地] 承商基本資料_勁傑系統.xlsx
+2026-10-21 10:45:25 [INFO] [Drive刪除] 承商基本資料_勁傑系統.xlsx
+2026-10-21 10:45:25 [INFO] [刪除本地] 杰格科技_FMCS包商基本信息表.xlsx
+2026-10-21 10:45:26 [INFO] [Drive刪除] 杰格科技_FMCS包商基本信息表.xlsx
+2026-10-21 10:45:26 [INFO] [刪除本地] 峰創科技_Vender Code申請單.PDF
+2026-10-21 10:45:27 [INFO] [Drive刪除] 峰創科技_Vender Code申請單.PDF
+2026-10-21 10:45:27 [INFO] [刪除本地] IMG_0326.PNG
+2026-10-21 10:45:28 [INFO] [Drive刪除] IMG_0326.PNG
+2026-10-21 10:45:28 [INFO] [刪除本地] FMCS承包商評比表.pptx
+2026-10-21 10:45:29 [INFO] [Drive刪除] FMCS承包商評比表.pptx
+2026-10-21 10:45:29 [INFO] [刪除本地] B-4中期計畫_數位整合部版.pptx
+2026-10-21 10:45:30 [INFO] [Drive刪除] B-4中期計畫_數位整合部版.pptx
+2026-10-21 10:45:30 [INFO] [刪除本地] 2026.10梅竹區月報_數位整合部.pptx
+2026-10-21 10:45:31 [INFO] [Drive刪除] 2026.10梅竹區月報_數位整合部.pptx
+2026-10-21 10:45:31 [INFO] [刪除本地] 123.png
+2026-10-21 10:45:32 [INFO] [Drive刪除] 123.png
+2026-10-21 10:45:32 [INFO] [刪除本地] FMCS承包商評比報告 (10161653).pptx
+2026-10-21 10:45:35 [INFO] [Drive刪除] FMCS承包商評比報告 (10161653).pptx
+2026-10-21 10:45:35 [INFO] [刪除本地] W41_EF週報_Monday-inside.pptx
+2026-10-21 10:45:36 [INFO] [Drive刪除] W41_EF週報_Monday-inside.pptx
+2026-10-21 10:45:36 [INFO] [NAS讀取] W42 EF週報_(數位整合部)_inside.pptx (NAS勝)
+2026-10-21 10:45:54 [INFO] [Drive新增] W42 EF週報_(數位整合部)_inside.pptx
+2026-10-21 10:45:54 [INFO] [刪除本地] 廠商基本信息表(YP)-詮晟修110.09.xlsx
+2026-10-21 10:45:55 [INFO] [Drive刪除] 廠商基本信息表(YP)-詮晟修110.09.xlsx
+2026-10-21 10:45:55 [INFO] [刪除本地] FMCS包商基本信息表_宇辰科技.xlsx
+2026-10-21 10:45:56 [INFO] [Drive刪除] FMCS包商基本信息表_宇辰科技.xlsx
+2026-10-21 10:45:56 [INFO] [刪除本地] FMCS承包商評比報告 (1).pptx
+2026-10-21 10:45:57 [INFO] [Drive刪除] FMCS承包商評比報告 (1).pptx
+2026-10-21 10:45:57 [INFO] [刪除本地] FMCS承包商評比報告.pptx
+2026-10-21 10:45:58 [INFO] [Drive刪除] FMCS承包商評比報告.pptx
+2026-10-21 10:45:58 [INFO] [刪除本地] W41 EF週報_(數位整合部)_inside.pptx
+2026-10-21 10:45:59 [INFO] [Drive刪除] W41 EF週報_(數位整合部)_inside.pptx
+2026-10-21 10:45:59 [INFO] [刪除本地] 供應商新增申請補充資料說明_峰創.pptx
+2026-10-21 10:46:00 [INFO] [Drive刪除] 供應商新增申請補充資料說明_峰創.pptx
+2026-10-21 10:46:00 [INFO] --- 增量同步完成，pageToken 已更新 ---
