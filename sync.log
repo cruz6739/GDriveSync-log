@@ -1,16 +1,3 @@
-2026-10-21 15:25:17 [INFO] [NAS讀取] W42 EF週報_(數位整合部)_inside.pptx (NAS勝)
-2026-10-21 15:25:22 [INFO] [Drive更新] W42 EF週報_(數位整合部)_inside.pptx
-2026-10-21 15:25:22 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-10-21 15:25:26 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-21 15:25:30 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-21 15:25:30 [INFO] ====== GDriveSync 結束 ======
-
-2026-10-21 15:35:02 [INFO] ====== GDriveSync 啟動 ======
-2026-10-21 15:35:02 [INFO] 資料庫初始化完成
-2026-10-21 15:35:02 [INFO] Token refresh 成功
-2026-10-21 15:35:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-10-21 15:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-10-21 15:35:02 [INFO] --- 開始增量同步 ---
 2026-10-21 15:35:17 [INFO] [NAS讀取] P8_風險預警防阻KPI_視覺化.pptx (NAS勝)
 2026-10-21 15:35:21 [INFO] [Drive新增] P8_風險預警防阻KPI_視覺化.pptx
 2026-10-21 15:35:24 [INFO] [下載更新] W42 EF週報_(數位整合部)_inside.pptx (Drive勝)
@@ -1468,3 +1455,12 @@
 2026-10-22 15:25:02 [INFO] --- 開始增量同步 ---
 2026-10-22 15:25:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-22 15:25:22 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-22 15:25:26 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-22 15:25:26 [INFO] ====== GDriveSync 結束 ======
+
+2026-10-22 15:35:02 [INFO] ====== GDriveSync 啟動 ======
+2026-10-22 15:35:02 [INFO] 資料庫初始化完成
+2026-10-22 15:35:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-10-22 15:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-10-22 15:35:02 [INFO] --- 開始增量同步 ---
+2026-10-22 15:35:17 [INFO] --- 增量同步完成，pageToken 已更新 ---
