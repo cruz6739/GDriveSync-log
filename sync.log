@@ -1465,3 +1465,4 @@
 2026-10-26 09:55:16 [INFO] [NAS讀取] tm.txt (NAS勝)
 2026-10-26 09:55:18 [INFO] [Drive新增] tm.txt
 2026-10-26 09:55:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-10-26 09:55:22 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
