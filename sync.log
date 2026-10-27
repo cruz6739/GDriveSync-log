@@ -1480,3 +1480,6 @@
 2026-10-27 15:35:19 [INFO] [NAS寫入] QA.txt
 2026-10-27 15:35:19 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-27 15:35:23 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-27 15:35:26 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-27 15:35:26 [INFO] ====== GDriveSync 結束 ======
+
