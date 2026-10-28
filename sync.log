@@ -1491,3 +1491,4 @@
 2026-10-28 12:15:20 [INFO] [NAS讀取] 1211.png (NAS勝)
 2026-10-28 12:15:27 [INFO] [Drive新增] 1211.png
 2026-10-28 12:15:27 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-10-28 12:15:31 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
