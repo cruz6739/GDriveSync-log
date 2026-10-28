@@ -1485,3 +1485,4 @@
 2026-10-28 11:35:18 [INFO] [下載更新] AddressBook261028.csv (Drive勝)
 2026-10-28 11:35:18 [INFO] [NAS寫入] AddressBook261028.csv
 2026-10-28 11:35:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-10-28 11:35:22 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
