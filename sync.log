@@ -1483,3 +1483,4 @@
 2026-10-28 11:25:19 [INFO] [刪除本地] AddressBook261013.csv
 2026-10-28 11:25:20 [INFO] [Drive刪除] AddressBook261013.csv
 2026-10-28 11:25:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-10-28 11:25:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
