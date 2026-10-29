@@ -1,34 +1,3 @@
-2026-10-28 17:25:03 [INFO] ====== GDriveSync 啟動 ======
-2026-10-28 17:25:03 [INFO] 資料庫初始化完成
-2026-10-28 17:25:03 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-10-28 17:25:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-10-28 17:25:03 [INFO] --- 開始增量同步 ---
-2026-10-28 17:25:25 [INFO] [下載更新] W38 EF週報_(數位整合部)_inside.pptx (Drive勝)
-2026-10-28 17:25:26 [INFO] [NAS寫入] W38 EF週報_(數位整合部)_inside.pptx
-2026-10-28 17:25:28 [INFO] [下載更新] 2026.11梅竹區月報_數位整合部_inside.pptx (Drive勝)
-2026-10-28 17:25:28 [INFO] [NAS寫入] 2026.11梅竹區月報_數位整合部_inside.pptx
-2026-10-28 17:25:31 [INFO] [下載更新] W40 EF週報_(數位整合部)_inside.pptx (Drive勝)
-2026-10-28 17:25:31 [INFO] [NAS寫入] W40 EF週報_(數位整合部)_inside.pptx
-2026-10-28 17:25:34 [INFO] [下載更新] 2026.10梅竹區月報_數位整合部.pptx (Drive勝)
-2026-10-28 17:25:34 [INFO] [NAS寫入] 2026.10梅竹區月報_數位整合部.pptx
-2026-10-28 17:25:37 [INFO] [下載更新] 2026.11_廖總版_月報_(DID)_v2.pptx (Drive勝)
-2026-10-28 17:25:37 [INFO] [NAS寫入] 2026.11_廖總版_月報_(DID)_v2.pptx
-2026-10-28 17:25:39 [INFO] [下載更新] 2026.11_廖總版_月報_inside.pptx (Drive勝)
-2026-10-28 17:25:40 [INFO] [NAS寫入] 2026.11_廖總版_月報_inside.pptx
-2026-10-28 17:25:43 [INFO] [下載更新] 20261013_DID_monthly_SEP-inside.pptx (Drive勝)
-2026-10-28 17:25:43 [INFO] [NAS寫入] 20261013_DID_monthly_SEP-inside.pptx
-2026-10-28 17:25:47 [INFO] [下載更新] W41_EF週報_Monday-inside.pptx (Drive勝)
-2026-10-28 17:25:47 [INFO] [NAS寫入] W41_EF週報_Monday-inside.pptx
-2026-10-28 17:25:47 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-10-28 17:25:52 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-28 17:25:56 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-28 17:25:56 [INFO] ====== GDriveSync 結束 ======
-
-2026-10-28 17:35:02 [INFO] ====== GDriveSync 啟動 ======
-2026-10-28 17:35:02 [INFO] 資料庫初始化完成
-2026-10-28 17:35:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-10-28 17:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-10-28 17:35:02 [INFO] --- 開始增量同步 ---
 2026-10-28 17:35:22 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-28 17:35:26 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-10-28 17:35:30 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1497,3 +1466,12 @@
 2026-10-29 17:25:02 [INFO] --- 開始增量同步 ---
 2026-10-29 17:25:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-29 17:25:25 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-29 17:25:29 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-29 17:25:29 [INFO] ====== GDriveSync 結束 ======
+
+2026-10-29 17:35:02 [INFO] ====== GDriveSync 啟動 ======
+2026-10-29 17:35:02 [INFO] 資料庫初始化完成
+2026-10-29 17:35:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-10-29 17:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-10-29 17:35:02 [INFO] --- 開始增量同步 ---
+2026-10-29 17:35:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
