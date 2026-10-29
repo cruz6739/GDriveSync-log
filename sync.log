@@ -1499,3 +1499,4 @@
 2026-10-29 13:35:26 [INFO] [NAS讀取] W43_EF_Monday-inside.pptx (NAS勝)
 2026-10-29 13:35:31 [INFO] [Drive新增] W43_EF_Monday-inside.pptx
 2026-10-29 13:35:31 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-10-29 13:35:35 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
