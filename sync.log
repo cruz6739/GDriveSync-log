@@ -1,14 +1,3 @@
-2026-10-30 10:35:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-10-30 10:35:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-30 10:35:28 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-10-30 10:35:28 [INFO] ====== GDriveSync 結束 ======
-
-2026-10-30 10:45:02 [INFO] ====== GDriveSync 啟動 ======
-2026-10-30 10:45:02 [INFO] 資料庫初始化完成
-2026-10-30 10:45:02 [INFO] Token refresh 成功
-2026-10-30 10:45:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-10-30 10:45:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-10-30 10:45:02 [INFO] --- 開始增量同步 ---
 2026-10-30 10:45:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-30 10:45:25 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-10-30 10:45:28 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1473,3 +1462,23 @@
 2026-10-31 10:35:02 [INFO] --- 開始增量同步 ---
 2026-10-31 10:35:19 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-10-31 10:35:23 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-31 10:35:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-10-31 10:35:27 [INFO] ====== GDriveSync 結束 ======
+
+2026-10-31 10:45:02 [INFO] ====== GDriveSync 啟動 ======
+2026-10-31 10:45:02 [INFO] 資料庫初始化完成
+2026-10-31 10:45:03 [INFO] Token refresh 成功
+2026-10-31 10:45:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-10-31 10:45:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-10-31 10:45:03 [INFO] --- 開始增量同步 ---
+2026-10-31 10:45:20 [INFO] [NAS讀取] 04.-圖面-梅獅宿舍-2F辦公室. - 複製.pdf (NAS勝)
+2026-10-31 10:45:29 [INFO] [Drive新增] 04.-圖面-梅獅宿舍-2F辦公室. - 複製.pdf
+2026-10-31 10:45:30 [INFO] [NAS讀取] 2026.11梅竹區月報_數位整合部.pptx (NAS勝)
+2026-10-31 10:45:33 [INFO] [Drive新增] 2026.11梅竹區月報_數位整合部.pptx
+2026-10-31 10:45:34 [INFO] [NAS讀取] 2026.11_廖總版_月報 - 複製.pptx (NAS勝)
+2026-10-31 10:45:40 [INFO] [Drive新增] 2026.11_廖總版_月報 - 複製.pptx
+2026-10-31 10:45:40 [INFO] [NAS讀取] 工業監控中心方案比較圖 - 複製.png (NAS勝)
+2026-10-31 10:45:52 [INFO] [Drive新增] 工業監控中心方案比較圖 - 複製.png
+2026-10-31 10:45:52 [INFO] [NAS讀取] 2026.11梅竹區月報_數位整合部_inside - 複製.pptx (NAS勝)
+2026-10-31 10:46:01 [INFO] [Drive新增] 2026.11梅竹區月報_數位整合部_inside - 複製.pptx
+2026-10-31 10:46:01 [INFO] --- 增量同步完成，pageToken 已更新 ---
