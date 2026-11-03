@@ -1,19 +1,3 @@
-2026-11-02 10:55:20 [INFO] [NAS讀取] 456.png (NAS勝)
-2026-11-02 10:55:24 [INFO] [Drive新增] 456.png
-2026-11-02 10:55:26 [INFO] [下載更新] 123.png (Drive勝)
-2026-11-02 10:55:26 [INFO] [NAS寫入] 123.png
-2026-11-02 10:55:26 [INFO] [NAS讀取] 8a2fb091-fb80-4793-97b4-3e25a12ca745.png (NAS勝)
-2026-11-02 10:55:34 [INFO] [Drive新增] 8a2fb091-fb80-4793-97b4-3e25a12ca745.png
-2026-11-02 10:55:34 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-02 10:55:38 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-02 10:55:41 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-02 10:55:41 [INFO] ====== GDriveSync 結束 ======
-
-2026-11-02 11:05:02 [INFO] ====== GDriveSync 啟動 ======
-2026-11-02 11:05:02 [INFO] 資料庫初始化完成
-2026-11-02 11:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-02 11:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-02 11:05:02 [INFO] --- 開始增量同步 ---
 2026-11-02 11:05:22 [INFO] [NAS讀取] 26dc0d0c-23a5-48ce-86df-3dd38b4e6686.png (NAS勝)
 2026-11-02 11:05:30 [INFO] [Drive新增] 26dc0d0c-23a5-48ce-86df-3dd38b4e6686.png
 2026-11-02 11:05:33 [INFO] [下載更新] 8a2fb091-fb80-4793-97b4-3e25a12ca745.png (Drive勝)
@@ -1514,3 +1498,12 @@
 2026-11-03 10:55:02 [INFO] --- 開始增量同步 ---
 2026-11-03 10:55:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-03 10:55:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-03 10:55:28 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-03 10:55:28 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-03 11:05:02 [INFO] ====== GDriveSync 啟動 ======
+2026-11-03 11:05:02 [INFO] 資料庫初始化完成
+2026-11-03 11:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-03 11:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-03 11:05:02 [INFO] --- 開始增量同步 ---
+2026-11-03 11:05:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
