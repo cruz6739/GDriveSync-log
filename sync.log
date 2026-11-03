@@ -1,21 +1,3 @@
-2026-11-02 11:45:03 [INFO] Token refresh 成功
-2026-11-02 11:45:03 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-02 11:45:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-02 11:45:03 [INFO] --- 開始增量同步 ---
-2026-11-02 11:45:24 [INFO] [下載更新] 92fbc3e5-18c2-410f-81a6-c36a7440c28a.png (Drive勝)
-2026-11-02 11:45:24 [INFO] [NAS寫入] 92fbc3e5-18c2-410f-81a6-c36a7440c28a.png
-2026-11-02 11:45:26 [INFO] [下載更新] a8dd85cf-7cc5-4865-bc9c-12634c021bd4.png (Drive勝)
-2026-11-02 11:45:26 [INFO] [NAS寫入] a8dd85cf-7cc5-4865-bc9c-12634c021bd4.png
-2026-11-02 11:45:26 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-02 11:45:30 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-02 11:45:34 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-02 11:45:34 [INFO] ====== GDriveSync 結束 ======
-
-2026-11-02 11:55:02 [INFO] ====== GDriveSync 啟動 ======
-2026-11-02 11:55:02 [INFO] 資料庫初始化完成
-2026-11-02 11:55:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-02 11:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-02 11:55:02 [INFO] --- 開始增量同步 ---
 2026-11-02 11:55:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-02 11:55:25 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-11-02 11:55:29 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1494,3 +1476,16 @@
 2026-11-03 11:45:32 [INFO] [Drive新增] dc7af8ca-8401-4b7b-9312-259f2e8a3a3f.png
 2026-11-03 11:45:32 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-03 11:45:36 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-03 11:45:40 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-03 11:45:40 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-03 11:55:02 [INFO] ====== GDriveSync 啟動 ======
+2026-11-03 11:55:02 [INFO] 資料庫初始化完成
+2026-11-03 11:55:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-03 11:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-03 11:55:02 [INFO] --- 開始增量同步 ---
+2026-11-03 11:55:24 [INFO] [下載更新] dc7af8ca-8401-4b7b-9312-259f2e8a3a3f.png (Drive勝)
+2026-11-03 11:55:24 [INFO] [NAS寫入] dc7af8ca-8401-4b7b-9312-259f2e8a3a3f.png
+2026-11-03 11:55:24 [INFO] [NAS讀取] 3f291ac7-c1bc-4471-b919-1c215bbec208.png (NAS勝)
+2026-11-03 11:55:30 [INFO] [Drive新增] 3f291ac7-c1bc-4471-b919-1c215bbec208.png
+2026-11-03 11:55:30 [INFO] --- 增量同步完成，pageToken 已更新 ---
