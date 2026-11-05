@@ -1570,3 +1570,4 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-11-05 15:35:20 [INFO] [NAS讀取] 平台高度風險提列分析_20261105.pptx (NAS勝)
 2026-11-05 15:35:23 [INFO] [Drive新增] 平台高度風險提列分析_20261105.pptx
 2026-11-05 15:35:23 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-05 15:35:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
