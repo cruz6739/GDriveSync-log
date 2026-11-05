@@ -1,13 +1,3 @@
-2026-11-04 09:25:23 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-04 09:25:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-04 09:25:31 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-04 09:25:31 [INFO] ====== GDriveSync 結束 ======
-
-2026-11-04 09:35:02 [INFO] ====== GDriveSync 啟動 ======
-2026-11-04 09:35:02 [INFO] 資料庫初始化完成
-2026-11-04 09:35:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-04 09:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-04 09:35:02 [INFO] --- 開始增量同步 ---
 2026-11-04 09:35:23 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-04 09:35:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-11-04 09:35:31 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1484,3 +1474,46 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-11-05 09:25:03 [INFO] --- 開始增量同步 ---
 2026-11-05 09:25:23 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-05 09:25:28 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-05 09:25:31 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-05 09:25:31 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-05 09:35:03 [INFO] ====== GDriveSync 啟動 ======
+2026-11-05 09:35:03 [INFO] 資料庫初始化完成
+2026-11-05 09:35:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-05 09:35:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-05 09:35:03 [INFO] --- 開始增量同步 ---
+2026-11-05 09:35:22 [INFO] [刪除本地] 3f291ac7-c1bc-4471-b919-1c215bbec208.png
+2026-11-05 09:35:22 [INFO] [Drive刪除] 3f291ac7-c1bc-4471-b919-1c215bbec208.png
+2026-11-05 09:35:23 [INFO] [刪除本地] 26dc0d0c-23a5-48ce-86df-3dd38b4e6686.png
+2026-11-05 09:35:24 [INFO] [Drive刪除] 26dc0d0c-23a5-48ce-86df-3dd38b4e6686.png
+2026-11-05 09:35:24 [INFO] [刪除本地] 123.png
+2026-11-05 09:35:24 [INFO] [Drive刪除] 123.png
+2026-11-05 09:35:24 [INFO] [刪除本地] 92fbc3e5-18c2-410f-81a6-c36a7440c28a.png
+2026-11-05 09:35:27 [INFO] [Drive刪除] 92fbc3e5-18c2-410f-81a6-c36a7440c28a.png
+2026-11-05 09:35:27 [INFO] [刪除本地] 未命名02.png
+2026-11-05 09:35:27 [INFO] [Drive刪除] 未命名02.png
+2026-11-05 09:35:27 [INFO] [刪除本地] 未命名.png
+2026-11-05 09:35:29 [INFO] [Drive刪除] 未命名.png
+2026-11-05 09:35:29 [INFO] [刪除本地] 2e018947-6cdc-436e-a43c-574bbb3aceec.png
+2026-11-05 09:35:30 [INFO] [Drive刪除] 2e018947-6cdc-436e-a43c-574bbb3aceec.png
+2026-11-05 09:35:30 [INFO] [刪除本地] dc7af8ca-8401-4b7b-9312-259f2e8a3a3f.png
+2026-11-05 09:35:30 [INFO] [Drive刪除] dc7af8ca-8401-4b7b-9312-259f2e8a3a3f.png
+2026-11-05 09:35:30 [INFO] [刪除本地] 工業監控中心方案比較圖 - 複製.png
+2026-11-05 09:35:32 [INFO] [Drive刪除] 工業監控中心方案比較圖 - 複製.png
+2026-11-05 09:35:32 [INFO] [NAS讀取] 廠務中央監控系統整合(FMCS)工程發包規範.docx (NAS勝)
+2026-11-05 09:35:35 [INFO] [Drive新增] 廠務中央監控系統整合(FMCS)工程發包規範.docx
+2026-11-05 09:35:35 [INFO] [刪除本地] 051a0642-7548-4497-9dc6-af35661948fd.png
+2026-11-05 09:35:36 [INFO] [Drive刪除] 051a0642-7548-4497-9dc6-af35661948fd.png
+2026-11-05 09:35:36 [INFO] [刪除本地] a8dd85cf-7cc5-4865-bc9c-12634c021bd4.png
+2026-11-05 09:35:37 [INFO] [Drive刪除] a8dd85cf-7cc5-4865-bc9c-12634c021bd4.png
+2026-11-05 09:35:37 [INFO] [刪除本地] 8a2fb091-fb80-4793-97b4-3e25a12ca745.png
+2026-11-05 09:35:38 [INFO] [Drive刪除] 8a2fb091-fb80-4793-97b4-3e25a12ca745.png
+2026-11-05 09:35:38 [INFO] [刪除本地] 789.png
+2026-11-05 09:35:39 [INFO] [Drive刪除] 789.png
+2026-11-05 09:35:39 [INFO] [刪除本地] TAG replace.jpg
+2026-11-05 09:35:40 [INFO] [Drive刪除] TAG replace.jpg
+2026-11-05 09:35:40 [INFO] [刪除本地] 456.png
+2026-11-05 09:35:41 [INFO] [Drive刪除] 456.png
+2026-11-05 09:35:41 [INFO] [刪除本地] 20250321162436672.jpg
+2026-11-05 09:35:42 [INFO] [Drive刪除] 20250321162436672.jpg
+2026-11-05 09:35:42 [INFO] --- 增量同步完成，pageToken 已更新 ---
