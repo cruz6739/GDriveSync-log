@@ -1517,3 +1517,4 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-11-05 09:35:41 [INFO] [刪除本地] 20250321162436672.jpg
 2026-11-05 09:35:42 [INFO] [Drive刪除] 20250321162436672.jpg
 2026-11-05 09:35:42 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-05 09:35:47 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
