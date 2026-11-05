@@ -1561,3 +1561,4 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-11-05 11:45:20 [INFO] [下載更新] frontend_points_by_plant_20261105.csv (Drive勝)
 2026-11-05 11:45:20 [INFO] [NAS寫入] frontend_points_by_plant_20261105.csv
 2026-11-05 11:45:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-05 11:45:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
