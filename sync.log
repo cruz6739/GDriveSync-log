@@ -1480,3 +1480,6 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-11-06 16:15:23 [INFO] [Drive新增] SCADA跨廠連線資安比較_20261106.pptx
 2026-11-06 16:15:23 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-06 16:15:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-06 16:15:31 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-06 16:15:31 [INFO] ====== GDriveSync 結束 ======
+
