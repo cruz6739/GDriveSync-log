@@ -1,13 +1,3 @@
-2026-11-08 09:05:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-08 09:05:25 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-08 09:05:29 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-08 09:05:29 [INFO] ====== GDriveSync 結束 ======
-
-2026-11-08 09:15:02 [INFO] ====== GDriveSync 啟動 ======
-2026-11-08 09:15:02 [INFO] 資料庫初始化完成
-2026-11-08 09:15:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-08 09:15:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-08 09:15:02 [INFO] --- 開始增量同步 ---
 2026-11-08 09:15:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-08 09:15:25 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-11-08 09:15:28 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1468,3 +1458,18 @@
 2026-11-09 09:05:39 [INFO] [Drive新增] EFplant風險模型_運轉風險控制_20261109.pptx
 2026-11-09 09:05:39 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-09 09:05:43 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-09 09:05:47 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-09 09:05:47 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-09 09:15:03 [INFO] ====== GDriveSync 啟動 ======
+2026-11-09 09:15:03 [INFO] 資料庫初始化完成
+2026-11-09 09:15:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-09 09:15:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-09 09:15:03 [INFO] --- 開始增量同步 ---
+2026-11-09 09:15:21 [INFO] [NAS讀取] CSense_PID與EFplant風險模型_圖像化_20261109.pptx (NAS勝)
+2026-11-09 09:15:27 [INFO] [Drive新增] CSense_PID與EFplant風險模型_圖像化_20261109.pptx
+2026-11-09 09:15:29 [INFO] [下載更新] CSense_iFIX_PID結合應用_20261109.pptx (Drive勝)
+2026-11-09 09:15:29 [INFO] [NAS寫入] CSense_iFIX_PID結合應用_20261109.pptx
+2026-11-09 09:15:31 [INFO] [下載更新] EFplant風險模型_運轉風險控制_20261109.pptx (Drive勝)
+2026-11-09 09:15:31 [ERROR] [錯誤] 處理 EFplant風險模型_運轉風險控制_20261109.pptx：[WinError 32] 程序無法存取檔案，因為檔案正由另一個程序使用。
+2026-11-09 09:15:31 [INFO] --- 增量同步完成，pageToken 已更新 ---
