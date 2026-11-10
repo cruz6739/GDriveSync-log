@@ -1484,3 +1484,8 @@
 2026-11-10 23:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-11-10 23:35:02 [INFO] --- 開始增量同步 ---
 2026-11-10 23:35:22 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-10 23:35:26 [WARNING] [GitHub] git push failed, refreshing remote before retry 1/1: remote: fatal error in commit_refs        
+To https://github.com/cruz6739/GDriveSync-log
+ ! [remote rejected]     main -> main (failure)
+error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
+2026-11-10 23:35:30 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
