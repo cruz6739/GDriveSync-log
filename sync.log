@@ -1,13 +1,3 @@
-2026-11-09 15:55:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-09 15:55:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-09 15:55:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-09 15:55:27 [INFO] ====== GDriveSync 結束 ======
-
-2026-11-09 16:05:03 [INFO] ====== GDriveSync 啟動 ======
-2026-11-09 16:05:03 [INFO] 資料庫初始化完成
-2026-11-09 16:05:03 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-09 16:05:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-09 16:05:03 [INFO] --- 開始增量同步 ---
 2026-11-09 16:05:23 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-09 16:05:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-11-09 16:05:33 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1474,3 +1464,16 @@
 2026-11-10 15:55:27 [INFO] [NAS寫入] ICT接管 – FMCS 衝擊評估.pptx
 2026-11-10 15:55:27 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-10 15:55:32 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-10 15:55:35 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-10 15:55:35 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-10 16:05:03 [INFO] ====== GDriveSync 啟動 ======
+2026-11-10 16:05:03 [INFO] 資料庫初始化完成
+2026-11-10 16:05:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-10 16:05:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-10 16:05:03 [INFO] --- 開始增量同步 ---
+2026-11-10 16:05:24 [INFO] [下載更新] 簽呈20261008_(範例).doc (Drive勝)
+2026-11-10 16:05:24 [INFO] [NAS寫入] 簽呈20261008_(範例).doc
+2026-11-10 16:05:24 [INFO] [NAS讀取] 簽呈_ICT接管FMCS_20261110.doc (NAS勝)
+2026-11-10 16:05:27 [INFO] [Drive新增] 簽呈_ICT接管FMCS_20261110.doc
+2026-11-10 16:05:27 [INFO] --- 增量同步完成，pageToken 已更新 ---
