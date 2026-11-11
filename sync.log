@@ -1491,3 +1491,4 @@ error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
 2026-11-11 10:45:25 [INFO] [下載更新] ICT接管FMCS_網咖動漫版_20261111.pptx (Drive勝)
 2026-11-11 10:45:26 [ERROR] [錯誤] 處理 ICT接管FMCS_網咖動漫版_20261111.pptx：[WinError 32] 程序無法存取檔案，因為檔案正由另一個程序使用。
 2026-11-11 10:45:26 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-11 10:45:30 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
