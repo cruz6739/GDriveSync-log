@@ -1,13 +1,3 @@
-2026-11-11 12:55:27 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-11 12:55:31 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-11 12:55:35 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-11 12:55:35 [INFO] ====== GDriveSync 結束 ======
-
-2026-11-11 13:05:02 [INFO] ====== GDriveSync 啟動 ======
-2026-11-11 13:05:02 [INFO] 資料庫初始化完成
-2026-11-11 13:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-11 13:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-11 13:05:02 [INFO] --- 開始增量同步 ---
 2026-11-11 13:05:28 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-11 13:05:32 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-11-11 13:05:36 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1490,3 +1480,14 @@
 2026-11-12 12:55:30 [INFO] [Drive新增] FOC_BOM表_金額概估_v8.xlsx
 2026-11-12 12:55:30 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-12 12:55:34 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-12 12:55:38 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-12 12:55:38 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-12 13:05:03 [INFO] ====== GDriveSync 啟動 ======
+2026-11-12 13:05:03 [INFO] 資料庫初始化完成
+2026-11-12 13:05:03 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-12 13:05:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-12 13:05:03 [INFO] --- 開始增量同步 ---
+2026-11-12 13:05:34 [INFO] [下載更新] FOC_BOM表_金額概估_v8.xlsx (Drive勝)
+2026-11-12 13:05:34 [INFO] [NAS寫入] FOC_BOM表_金額概估_v8.xlsx
+2026-11-12 13:05:34 [INFO] --- 增量同步完成，pageToken 已更新 ---
