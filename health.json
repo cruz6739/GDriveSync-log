@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-12T11:55:35",
-  "state": "complete",
+  "updated_at": "2026-11-12T12:05:34",
+  "state": "core_sync_complete",
   "core_sync_ok": true,
-  "github_push_ok": true,
+  "github_push_ok": null,
   "detail": ""
 }
