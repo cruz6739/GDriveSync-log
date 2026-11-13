@@ -1,8 +1,3 @@
-2026-11-12 12:25:29 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-12 12:25:34 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-12 12:25:38 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-12 12:25:38 [INFO] ====== GDriveSync 結束 ======
-
 2026-11-12 12:35:03 [INFO] ====== GDriveSync 啟動 ======
 2026-11-12 12:35:03 [INFO] 資料庫初始化完成
 2026-11-12 12:35:03 [INFO] file_cache is only supported with oauth2client<4.0.0
@@ -1480,3 +1475,16 @@
 2026-11-13 12:25:48 [ERROR] [錯誤] 處理 20261113_DID_monthly_OCT-inside.pptx：[WinError 32] 程序無法存取檔案，因為檔案正由另一個程序使用。
 2026-11-13 12:25:48 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-13 12:25:56 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-13 12:26:02 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-13 12:26:02 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-13 12:35:02 [INFO] ====== GDriveSync 啟動 ======
+2026-11-13 12:35:02 [INFO] 資料庫初始化完成
+2026-11-13 12:35:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-13 12:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-13 12:35:02 [INFO] --- 開始增量同步 ---
+2026-11-13 12:35:33 [INFO] [NAS讀取] 戰情室_加投影機布幕寫字板_原尺寸.png (NAS勝)
+2026-11-13 12:35:36 [INFO] [Drive新增] 戰情室_加投影機布幕寫字板_原尺寸.png
+2026-11-13 12:35:36 [INFO] [NAS讀取] 戰情室_加投影機布幕寫字板_放大3x.png (NAS勝)
+2026-11-13 12:35:40 [INFO] [Drive新增] 戰情室_加投影機布幕寫字板_放大3x.png
+2026-11-13 12:35:40 [INFO] --- 增量同步完成，pageToken 已更新 ---
