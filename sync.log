@@ -1,15 +1,3 @@
-2026-11-12 13:35:03 [INFO] ====== GDriveSync 啟動 ======
-2026-11-12 13:35:03 [INFO] 資料庫初始化完成
-2026-11-12 13:35:03 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-12 13:35:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-12 13:35:03 [INFO] --- 開始增量同步 ---
-2026-11-12 13:35:29 [INFO] [下載更新] FOC_BOM表_金額概估_v9.xlsx (Drive勝)
-2026-11-12 13:35:29 [INFO] [NAS寫入] FOC_BOM表_金額概估_v9.xlsx
-2026-11-12 13:35:29 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-12 13:35:33 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-12 13:35:36 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-12 13:35:37 [INFO] ====== GDriveSync 結束 ======
-
 2026-11-12 13:45:03 [INFO] ====== GDriveSync 啟動 ======
 2026-11-12 13:45:03 [INFO] 資料庫初始化完成
 2026-11-12 13:45:03 [INFO] Token refresh 成功
@@ -1509,3 +1497,27 @@
 2026-11-13 13:35:51 [INFO] [Drive新增] IMG_0413.JPG
 2026-11-13 13:35:51 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-13 13:35:55 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-13 13:35:59 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-13 13:35:59 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-13 13:45:02 [INFO] ====== GDriveSync 啟動 ======
+2026-11-13 13:45:02 [INFO] 資料庫初始化完成
+2026-11-13 13:45:02 [INFO] Token refresh 成功
+2026-11-13 13:45:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-13 13:45:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-13 13:45:02 [INFO] --- 開始增量同步 ---
+2026-11-13 13:45:32 [INFO] [下載更新] IMG_0416.JPG (Drive勝)
+2026-11-13 13:45:32 [INFO] [NAS寫入] IMG_0416.JPG
+2026-11-13 13:45:33 [INFO] [下載更新] IMG_0412.JPG (Drive勝)
+2026-11-13 13:45:33 [INFO] [NAS寫入] IMG_0412.JPG
+2026-11-13 13:45:34 [INFO] [下載更新] IMG_0414.JPG (Drive勝)
+2026-11-13 13:45:34 [INFO] [NAS寫入] IMG_0414.JPG
+2026-11-13 13:45:35 [INFO] [下載更新] IMG_0413.JPG (Drive勝)
+2026-11-13 13:45:36 [INFO] [NAS寫入] IMG_0413.JPG
+2026-11-13 13:45:37 [INFO] [下載更新] IMG_0417.JPG (Drive勝)
+2026-11-13 13:45:37 [INFO] [NAS寫入] IMG_0417.JPG
+2026-11-13 13:45:38 [INFO] [下載更新] IMG_0411.JPG (Drive勝)
+2026-11-13 13:45:38 [INFO] [NAS寫入] IMG_0411.JPG
+2026-11-13 13:45:39 [INFO] [下載更新] IMG_0415.JPG (Drive勝)
+2026-11-13 13:45:39 [INFO] [NAS寫入] IMG_0415.JPG
+2026-11-13 13:45:39 [INFO] --- 增量同步完成，pageToken 已更新 ---
