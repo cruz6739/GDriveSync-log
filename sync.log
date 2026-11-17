@@ -1498,3 +1498,4 @@
 2026-11-17 09:55:24 [INFO] [NAS讀取] 智慧預警KPI_20261116.pptx (NAS勝)
 2026-11-17 09:55:32 [INFO] [Drive新增] 智慧預警KPI_20261116.pptx
 2026-11-17 09:55:32 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-17 09:55:36 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
