@@ -1481,3 +1481,4 @@
 2026-11-18 09:25:25 [INFO] [NAS讀取] W47_EF_inside_V1.pptx (NAS勝)
 2026-11-18 09:25:42 [INFO] [Drive新增] W47_EF_inside_V1.pptx
 2026-11-18 09:25:42 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-18 09:25:46 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
