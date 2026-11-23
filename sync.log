@@ -1508,3 +1508,4 @@
 2026-11-23 14:05:26 [INFO] [下載更新] 一部歷年重大異常紀錄.xls (Drive勝)
 2026-11-23 14:05:27 [INFO] [NAS寫入] 一部歷年重大異常紀錄.xls
 2026-11-23 14:05:27 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-23 14:05:31 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
