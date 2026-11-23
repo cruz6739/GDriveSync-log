@@ -1504,3 +1504,4 @@
 2026-11-23 13:55:32 [INFO] [刪除本地] account.csv
 2026-11-23 13:55:33 [INFO] [Drive刪除] account.csv
 2026-11-23 13:55:33 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-23 13:55:38 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
