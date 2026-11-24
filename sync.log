@@ -1,17 +1,3 @@
-2026-11-23 14:25:03 [INFO] ====== GDriveSync 啟動 ======
-2026-11-23 14:25:03 [INFO] 資料庫初始化完成
-2026-11-23 14:25:03 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-23 14:25:03 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-23 14:25:03 [INFO] --- 開始增量同步 ---
-2026-11-23 14:25:19 [INFO] [NAS讀取] 異常事件分析_20261123.pptx (NAS勝)
-2026-11-23 14:25:24 [INFO] [Drive新增] 異常事件分析_20261123.pptx
-2026-11-23 14:25:24 [INFO] [NAS讀取] CDP_設備備品數位履歷_POC-261123.zip (NAS勝)
-2026-11-23 14:25:33 [INFO] [Drive新增] CDP_設備備品數位履歷_POC-261123.zip
-2026-11-23 14:25:33 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-23 14:25:38 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-23 14:25:42 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-23 14:25:42 [INFO] ====== GDriveSync 結束 ======
-
 2026-11-23 14:35:03 [INFO] ====== GDriveSync 啟動 ======
 2026-11-23 14:35:03 [INFO] 資料庫初始化完成
 2026-11-23 14:35:03 [INFO] file_cache is only supported with oauth2client<4.0.0
@@ -1492,3 +1478,40 @@
 2026-11-24 14:25:02 [INFO] --- 開始增量同步 ---
 2026-11-24 14:25:19 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-24 14:25:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-24 14:25:28 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-24 14:25:28 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-24 14:35:02 [INFO] ====== GDriveSync 啟動 ======
+2026-11-24 14:35:02 [INFO] 資料庫初始化完成
+2026-11-24 14:35:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-24 14:35:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-24 14:35:02 [INFO] --- 開始增量同步 ---
+2026-11-24 14:35:18 [INFO] [刪除本地] 關鍵設備ABC等級_V1.pptx
+2026-11-24 14:35:19 [INFO] [Drive刪除] 關鍵設備ABC等級_V1.pptx
+2026-11-24 14:35:19 [INFO] [刪除本地] 2026.10_廖總版_月報_(DID)_v2.pptx
+2026-11-24 14:35:20 [INFO] [Drive刪除] 2026.10_廖總版_月報_(DID)_v2.pptx
+2026-11-24 14:35:20 [INFO] [刪除本地] FMCS T2A + S2A 伺服器軟硬體年度保固採購說明.pdf
+2026-11-24 14:35:21 [INFO] [Drive刪除] FMCS T2A + S2A 伺服器軟硬體年度保固採購說明.pdf
+2026-11-24 14:35:21 [INFO] [刪除本地] CDP_設備備品數位履歷_POC-261123v2.zip
+2026-11-24 14:35:22 [INFO] [Drive刪除] CDP_設備備品數位履歷_POC-261123v2.zip
+2026-11-24 14:35:22 [INFO] [刪除本地] W47 EF週報_(數位整合部)_inside.pptx
+2026-11-24 14:35:23 [INFO] [Drive刪除] W47 EF週報_(數位整合部)_inside.pptx
+2026-11-24 14:35:23 [INFO] [NAS讀取] CDP_設備備品數位履歷_POC-1124v3.zip (NAS勝)
+2026-11-24 14:35:34 [INFO] [Drive新增] CDP_設備備品數位履歷_POC-1124v3.zip
+2026-11-24 14:35:34 [INFO] [刪除本地] CDP_設備備品數位履歷_POC-261123.zip
+2026-11-24 14:35:35 [INFO] [Drive刪除] CDP_設備備品數位履歷_POC-261123.zip
+2026-11-24 14:35:35 [INFO] [刪除本地] meter bypass.pptx
+2026-11-24 14:35:36 [INFO] [Drive刪除] meter bypass.pptx
+2026-11-24 14:35:36 [INFO] [刪除本地] 異常事件分析_20261123_V1.pptx
+2026-11-24 14:35:37 [INFO] [Drive刪除] 異常事件分析_20261123_V1.pptx
+2026-11-24 14:35:37 [INFO] [刪除本地] 異常事件分析_20261124_V2.pptx
+2026-11-24 14:35:38 [INFO] [Drive刪除] 異常事件分析_20261124_V2.pptx
+2026-11-24 14:35:38 [INFO] [NAS讀取] 異常事件分析_20261124_V3.pptx (NAS勝)
+2026-11-24 14:35:43 [INFO] [Drive新增] 異常事件分析_20261124_V3.pptx
+2026-11-24 14:35:43 [INFO] [刪除本地] 2026.11_廖總版_月報.pptx
+2026-11-24 14:35:44 [INFO] [Drive刪除] 2026.11_廖總版_月報.pptx
+2026-11-24 14:35:44 [INFO] [刪除本地] 異常事件分析_20261123.pptx
+2026-11-24 14:35:45 [INFO] [Drive刪除] 異常事件分析_20261123.pptx
+2026-11-24 14:35:45 [INFO] [刪除本地] CDP_設備備品數位履歷_POC-1124.zip
+2026-11-24 14:35:46 [INFO] [Drive刪除] CDP_設備備品數位履歷_POC-1124.zip
+2026-11-24 14:35:46 [INFO] --- 增量同步完成，pageToken 已更新 ---
