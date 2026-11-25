@@ -1,23 +1,3 @@
-2026-11-24 08:55:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-24 08:55:23 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-24 08:55:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-24 08:55:27 [INFO] ====== GDriveSync 結束 ======
-
-2026-11-24 09:05:02 [INFO] ====== GDriveSync 啟動 ======
-2026-11-24 09:05:02 [INFO] 資料庫初始化完成
-2026-11-24 09:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-24 09:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-24 09:05:02 [INFO] --- 開始增量同步 ---
-2026-11-24 09:05:23 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-24 09:05:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-24 09:05:32 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-24 09:05:32 [INFO] ====== GDriveSync 結束 ======
-
-2026-11-24 09:15:02 [INFO] ====== GDriveSync 啟動 ======
-2026-11-24 09:15:02 [INFO] 資料庫初始化完成
-2026-11-24 09:15:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-24 09:15:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-24 09:15:02 [INFO] --- 開始增量同步 ---
 2026-11-24 09:15:19 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-24 09:15:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
 2026-11-24 09:15:29 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
@@ -1516,3 +1496,29 @@
 2026-11-25 08:55:19 [INFO] [NAS寫入] FMCS_DMZ_Vibe_Coding_Spec.md
 2026-11-25 08:55:19 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-25 08:55:24 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-25 08:55:29 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-25 08:55:29 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-25 09:05:02 [INFO] ====== GDriveSync 啟動 ======
+2026-11-25 09:05:02 [INFO] 資料庫初始化完成
+2026-11-25 09:05:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-25 09:05:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-25 09:05:02 [INFO] --- 開始增量同步 ---
+2026-11-25 09:15:02 [INFO] ====== GDriveSync 啟動 ======
+2026-11-25 09:15:02 [INFO] 資料庫初始化完成
+2026-11-25 09:15:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-25 09:15:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-25 09:15:02 [INFO] --- 開始增量同步 ---
+2026-11-25 09:15:17 [INFO] [刪除本地] CDP_設備備品數位履歷_POC-1124v3.zip
+2026-11-25 09:15:19 [INFO] [Drive刪除] CDP_設備備品數位履歷_POC-1124v3.zip
+2026-11-25 09:15:19 [INFO] [刪除本地] CDP_設備備品數位履歷_POC.zip
+2026-11-25 09:15:20 [INFO] [Drive刪除] CDP_設備備品數位履歷_POC.zip
+2026-11-25 09:15:20 [INFO] [刪除本地] SmartIT介入FMCS_OT風險評估_20261120.pptx
+2026-11-25 09:15:21 [INFO] [Drive刪除] SmartIT介入FMCS_OT風險評估_20261120.pptx
+2026-11-25 09:15:21 [INFO] [刪除本地] 異常事件分析_20261124_V3.pptx
+2026-11-25 09:15:22 [INFO] [Drive刪除] 異常事件分析_20261124_V3.pptx
+2026-11-25 09:15:22 [INFO] [NAS讀取] W48 EF週報_(數位整合部)_inside.pptx (NAS勝)
+2026-11-25 09:15:33 [INFO] [Drive新增] W48 EF週報_(數位整合部)_inside.pptx
+2026-11-25 09:15:34 [INFO] [刪除本地] 3.關鍵設備範圍+4.FMCS監控項目+5.現況有設定感知器項目.pptx
+2026-11-25 09:15:35 [INFO] [Drive刪除] 3.關鍵設備範圍+4.FMCS監控項目+5.現況有設定感知器項目.pptx
+2026-11-25 09:15:35 [INFO] --- 增量同步完成，pageToken 已更新 ---
