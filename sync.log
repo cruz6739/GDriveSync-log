@@ -1532,3 +1532,10 @@
 2026-11-25 23:55:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-11-25 23:55:02 [INFO] --- 開始增量同步 ---
 2026-11-25 23:55:16 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-25 23:55:20 [WARNING] [GitHub] git push failed, refreshing remote before retry 1/1: remote: Internal Server Error        
+remote: Request ID 2656:90B3D:AF7699:1073B62:6B0704E7        
+remote: Time 2026-11-25T15:55:20Z
+To https://github.com/cruz6739/GDriveSync-log
+ ! [remote rejected]     main -> main (Internal Server Error)
+error: failed to push some refs to 'https://github.com/cruz6739/GDriveSync-log'
+2026-11-25 23:55:25 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
