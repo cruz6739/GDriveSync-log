@@ -1463,3 +1463,5 @@
 2026-11-27 16:25:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
 2026-11-27 16:25:02 [INFO] --- 開始增量同步 ---
 2026-11-27 16:25:22 [INFO] --- 增量同步完成，pageToken 已更新 ---
+2026-11-27 16:25:27 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-27 16:25:27 [WARNING] [GitHub] command failed, retry 1/1: fatal: unable to access 'https://github.com/cruz6739/GDriveSync-log/': Empty reply from server
