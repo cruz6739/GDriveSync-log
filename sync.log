@@ -1,27 +1,3 @@
-2026-11-26 13:15:21 [INFO] [刪除本地] CDA露點計correct.png
-2026-11-26 13:15:21 [INFO] [Drive刪除] CDA露點計correct.png
-2026-11-26 13:15:21 [INFO] [刪除本地] CDA露點計error.png
-2026-11-26 13:15:22 [INFO] [Drive刪除] CDA露點計error.png
-2026-11-26 13:15:22 [INFO] [刪除本地] abnormal.png
-2026-11-26 13:15:23 [INFO] [Drive刪除] abnormal.png
-2026-11-26 13:15:23 [INFO] [NAS讀取] 警報WoW分析_20261112-20261125.pptx (NAS勝)
-2026-11-26 13:15:27 [INFO] [Drive新增] 警報WoW分析_20261112-20261125.pptx
-2026-11-26 13:15:27 [INFO] [刪除本地] CDA露點計modify.png
-2026-11-26 13:15:28 [INFO] [Drive刪除] CDA露點計modify.png
-2026-11-26 13:15:28 [INFO] [刪除本地] iFIX累積電量異常_卡通宣導版_單頁.pptx
-2026-11-26 13:15:30 [INFO] [Drive刪除] iFIX累積電量異常_卡通宣導版_單頁.pptx
-2026-11-26 13:15:30 [INFO] [刪除本地] iFIX累積電量溢位_iH當機原理與處置_20261125.pptx
-2026-11-26 13:15:30 [INFO] [Drive刪除] iFIX累積電量溢位_iH當機原理與處置_20261125.pptx
-2026-11-26 13:15:30 [INFO] --- 增量同步完成，pageToken 已更新 ---
-2026-11-26 13:15:35 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-26 13:15:39 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
-2026-11-26 13:15:39 [INFO] ====== GDriveSync 結束 ======
-
-2026-11-26 13:25:02 [INFO] ====== GDriveSync 啟動 ======
-2026-11-26 13:25:02 [INFO] 資料庫初始化完成
-2026-11-26 13:25:02 [INFO] file_cache is only supported with oauth2client<4.0.0
-2026-11-26 13:25:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
-2026-11-26 13:25:02 [INFO] --- 開始增量同步 ---
 2026-11-26 13:25:21 [INFO] [下載更新] 警報WoW分析_20261112-20261125.pptx (Drive勝)
 2026-11-26 13:25:21 [INFO] [NAS寫入] 警報WoW分析_20261112-20261125.pptx
 2026-11-26 13:25:21 [INFO] --- 增量同步完成，pageToken 已更新 ---
@@ -1484,3 +1460,12 @@
 2026-11-27 13:15:02 [INFO] --- 開始增量同步 ---
 2026-11-27 13:15:20 [INFO] --- 增量同步完成，pageToken 已更新 ---
 2026-11-27 13:15:25 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-27 13:15:29 [INFO] [GitHub] sync logs pushed to https://github.com/cruz6739/GDriveSync-log
+2026-11-27 13:15:29 [INFO] ====== GDriveSync 結束 ======
+
+2026-11-27 13:25:02 [INFO] ====== GDriveSync 啟動 ======
+2026-11-27 13:25:02 [INFO] 資料庫初始化完成
+2026-11-27 13:25:02 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-11-27 13:25:02 [INFO] [NAS] 連線正常：\\192.168.120.31\RawDataAI\YP\YPjob
+2026-11-27 13:25:02 [INFO] --- 開始增量同步 ---
+2026-11-27 13:25:18 [INFO] --- 增量同步完成，pageToken 已更新 ---
